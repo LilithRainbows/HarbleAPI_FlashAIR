@@ -1486,7 +1486,7 @@
       "ClassName": "_-e1S"
     },
     {
-      "Name": "RejectMembershipRequest",
+      "Name": "RejectMembership",
       "Id": "2877",
       "Hash": "22877402",
       "IsOutgoing": true,
@@ -1549,7 +1549,7 @@
       "ClassName": "_-7u"
     },
     {
-      "Name": "RequestRoomPropertySet",
+      "Name": "RequestRoomProperty",
       "Id": "2947",
       "Hash": "26512460",
       "IsOutgoing": true,
@@ -2508,7 +2508,7 @@
       "ClassName": "_-p1e"
     },
     {
-      "Name": "ApproveMembershipRequest",
+      "Name": "ApproveMembership",
       "Id": "481",
       "Hash": "55467050",
       "IsOutgoing": true,
@@ -2697,7 +2697,7 @@
       "ClassName": "_-31c"
     },
     {
-      "Name": "LatencyPingRequest",
+      "Name": "LatencyPing",
       "Id": "763",
       "Hash": "14200498",
       "IsOutgoing": true,
@@ -3140,7 +3140,7 @@
       "ClassName": "_-u1z"
     },
     {
-      "Name": "ModeratorActionResult",
+      "Name": "ModeratorAction",
       "Id": "1044",
       "Hash": "25116876",
       "IsOutgoing": false,
@@ -3399,7 +3399,7 @@
       "ClassName": "_-p1z"
     },
     {
-      "Name": "ChangeEmailResult",
+      "Name": "ChangeEmail",
       "Id": "1300",
       "Hash": "48948360",
       "IsOutgoing": false,
@@ -3504,7 +3504,7 @@
       "ClassName": "_-C1U"
     },
     {
-      "Name": "IgnoreResult",
+      "Name": "Ignore",
       "Id": "1421",
       "Hash": "30046694",
       "IsOutgoing": false,
@@ -3616,7 +3616,7 @@
       "ClassName": "_-m1a"
     },
     {
-      "Name": "TryVerificationCodeResult",
+      "Name": "TryVerificationCode",
       "Id": "1562",
       "Hash": "23371976",
       "IsOutgoing": false,
@@ -3875,7 +3875,7 @@
       "ClassName": "_-s1B"
     },
     {
-      "Name": "MarketplaceCanMakeOfferResult",
+      "Name": "MarketplaceCanMakeOffer",
       "Id": "1874",
       "Hash": "2112619",
       "IsOutgoing": false,
@@ -3917,7 +3917,7 @@
       "ClassName": "_-tD"
     },
     {
-      "Name": "GuestRoomSearchResult",
+      "Name": "GuestRoomSearch",
       "Id": "1909",
       "Hash": "66898905",
       "IsOutgoing": false,
@@ -4064,7 +4064,7 @@
       "ClassName": "_-hv"
     },
     {
-      "Name": "CompetitionEntrySubmitResult",
+      "Name": "CompetitionEntrySubmit",
       "Id": "208",
       "Hash": "35264868",
       "IsOutgoing": false,
@@ -4127,7 +4127,7 @@
       "ClassName": "_-91b"
     },
     {
-      "Name": "CheckUserNameResult",
+      "Name": "CheckUserName",
       "Id": "2140",
       "Hash": "60885635",
       "IsOutgoing": false,
@@ -4218,7 +4218,7 @@
       "ClassName": "_-c1l"
     },
     {
-      "Name": "TryPhoneNumberResult",
+      "Name": "TryPhoneNumber",
       "Id": "2235",
       "Hash": "1657863",
       "IsOutgoing": false,
@@ -4260,7 +4260,7 @@
       "ClassName": "_-21c"
     },
     {
-      "Name": "HabboSearchResult",
+      "Name": "HabboSearch",
       "Id": "226",
       "Hash": "55028720",
       "IsOutgoing": false,
@@ -4295,7 +4295,7 @@
       "ClassName": "_-q1B"
     },
     {
-      "Name": "CraftingResult",
+      "Name": "Crafting",
       "Id": "2286",
       "Hash": "61256166",
       "IsOutgoing": false,
@@ -4379,7 +4379,7 @@
       "ClassName": "_-vy"
     },
     {
-      "Name": "NewFriendRequest",
+      "Name": "NewFriend",
       "Id": "2363",
       "Hash": "6114302",
       "IsOutgoing": false,
@@ -4498,14 +4498,14 @@
       "ClassName": "_-p1E"
     },
     {
-      "Name": "MarketplaceBuyOfferResult",
+      "Name": "MarketplaceBuyOffer",
       "Id": "2520",
       "Hash": "22312206",
       "IsOutgoing": false,
       "ClassName": "_-S5"
     },
     {
-      "Name": "WiredRewardResult",
+      "Name": "WiredReward",
       "Id": "2540",
       "Hash": "50294666",
       "IsOutgoing": false,
@@ -4561,7 +4561,7 @@
       "ClassName": "_-ub"
     },
     {
-      "Name": "RoomThumbnailUpdateResult",
+      "Name": "RoomThumbnailUpdate",
       "Id": "2590",
       "Hash": "27077540",
       "IsOutgoing": false,
@@ -4820,7 +4820,7 @@
       "ClassName": "_-v1G"
     },
     {
-      "Name": "OpenPetPackageResult",
+      "Name": "OpenPetPackage",
       "Id": "2866",
       "Hash": "58400626",
       "IsOutgoing": false,
@@ -4841,7 +4841,7 @@
       "ClassName": "_-iL"
     },
     {
-      "Name": "AcceptFriendResult",
+      "Name": "AcceptFriend",
       "Id": "2890",
       "Hash": "59995477",
       "IsOutgoing": false,
@@ -4911,7 +4911,7 @@
       "ClassName": "_-m1h"
     },
     {
-      "Name": "EmailStatusResult",
+      "Name": "EmailStatus",
       "Id": "2948",
       "Hash": "37626701",
       "IsOutgoing": false,
@@ -5128,7 +5128,7 @@
       "ClassName": "_-D13"
     },
     {
-      "Name": "MarketplaceCancelOfferResult",
+      "Name": "MarketplaceCancelOffer",
       "Id": "3201",
       "Hash": "15035499",
       "IsOutgoing": false,
@@ -5177,7 +5177,7 @@
       "ClassName": "_-61Q"
     },
     {
-      "Name": "GetGuestRoomResult",
+      "Name": "GetGuestRoom",
       "Id": "3292",
       "Hash": "36246974",
       "IsOutgoing": false,
@@ -5275,7 +5275,7 @@
       "ClassName": "_-o1V"
     },
     {
-      "Name": "MarketplaceMakeOfferResult",
+      "Name": "MarketplaceMakeOffer",
       "Id": "3368",
       "Hash": "50323820",
       "IsOutgoing": false,
@@ -5352,7 +5352,7 @@
       "ClassName": "_-bT"
     },
     {
-      "Name": "ChangeUserNameResult",
+      "Name": "ChangeUserName",
       "Id": "3460",
       "Hash": "52579650",
       "IsOutgoing": false,
@@ -5401,7 +5401,7 @@
       "ClassName": "_-hj"
     },
     {
-      "Name": "ConfirmBreedingRequest",
+      "Name": "ConfirmBreeding",
       "Id": "3550",
       "Hash": "26691149",
       "IsOutgoing": false,
@@ -5429,7 +5429,7 @@
       "ClassName": "_-mW"
     },
     {
-      "Name": "PetBreedingResult",
+      "Name": "PetBreeding",
       "Id": "3569",
       "Hash": "66482253",
       "IsOutgoing": false,
@@ -5639,7 +5639,7 @@
       "ClassName": "_-cZ"
     },
     {
-      "Name": "PopularRoomTagsResult",
+      "Name": "PopularRoomTags",
       "Id": "3919",
       "Hash": "11133493",
       "IsOutgoing": false,
@@ -5765,7 +5765,7 @@
       "ClassName": "_-U1t"
     },
     {
-      "Name": "GuideTicketCreationResult",
+      "Name": "GuideTicketCreation",
       "Id": "451",
       "Hash": "24112512",
       "IsOutgoing": false,
@@ -5835,7 +5835,7 @@
       "ClassName": "_-M1"
     },
     {
-      "Name": "FindFriendsProcessResult",
+      "Name": "FindFriendsProcess",
       "Id": "522",
       "Hash": "45634724",
       "IsOutgoing": false,
@@ -6094,7 +6094,7 @@
       "ClassName": "_-r11"
     },
     {
-      "Name": "ConfirmBreedingResult",
+      "Name": "ConfirmBreeding",
       "Id": "885",
       "Hash": "11903911",
       "IsOutgoing": false,
@@ -6150,7 +6150,7 @@
       "ClassName": "_-LE"
     },
     {
-      "Name": "CallForHelpResult",
+      "Name": "CallForHelp",
       "Id": "966",
       "Hash": "52983808",
       "IsOutgoing": false,

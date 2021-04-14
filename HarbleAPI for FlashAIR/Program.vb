@@ -214,11 +214,18 @@ Module Program
 
     Function CleanNewClassName(ByVal NewClassName As String) As String
         Dim CleanedClassName = NewClassName & "]"
+        CleanedClassName = CleanedClassName.Replace("ResultMessageEvent]", "")
         CleanedClassName = CleanedClassName.Replace("MessageEvent]", "")
+        CleanedClassName = CleanedClassName.Replace("RequestMessageComposer]", "")
         CleanedClassName = CleanedClassName.Replace("MessageComposer]", "")
         CleanedClassName = CleanedClassName.Replace("MessageParser]", "")
         CleanedClassName = CleanedClassName.Replace("Composer]", "")
+        CleanedClassName = CleanedClassName.Replace("RequestEvent]", "")
+        CleanedClassName = CleanedClassName.Replace("ResultEvent]", "")
+        CleanedClassName = CleanedClassName.Replace("Request]", "")
+        CleanedClassName = CleanedClassName.Replace("Result]", "")
         CleanedClassName = CleanedClassName.Replace("Event]", "")
+        CleanedClassName = CleanedClassName.Replace("Set]", "")
         CleanedClassName = CleanedClassName.Replace("]", "")
         Return CleanedClassName
     End Function
