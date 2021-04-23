@@ -1,0 +1,6447 @@
+{
+  "Revision": "WIN63-202104221206-601649277",
+  "Outgoing": [
+    {
+      "Name": "UpdateAction",
+      "Id": "1003",
+      "Hash": "40072506",
+      "IsOutgoing": true,
+      "ClassName": "_-41D"
+    },
+    {
+      "Name": "GetModeratorRoomInfo",
+      "Id": "1020",
+      "Hash": "10495806",
+      "IsOutgoing": true,
+      "ClassName": "_-F1J"
+    },
+    {
+      "Name": "ResetResolutionAchievement",
+      "Id": "1043",
+      "Hash": "25059790",
+      "IsOutgoing": true,
+      "ClassName": "_-v1B"
+    },
+    {
+      "Name": "SetCustomStackingHeight",
+      "Id": "105",
+      "Hash": "29963612",
+      "IsOutgoing": true,
+      "ClassName": "_-to"
+    },
+    {
+      "Name": "PerformanceLog",
+      "Id": "1051",
+      "Hash": "59995477",
+      "IsOutgoing": true,
+      "ClassName": "_-Pp"
+    },
+    {
+      "Name": "ActivateQuest",
+      "Id": "1061",
+      "Hash": "48266778",
+      "IsOutgoing": true,
+      "ClassName": "_-W1E"
+    },
+    {
+      "Name": "RemoveItemFromTrade",
+      "Id": "107",
+      "Hash": "36468595",
+      "IsOutgoing": true,
+      "ClassName": "_-81E"
+    },
+    {
+      "Name": "VerifyCode",
+      "Id": "1082",
+      "Hash": "61566768",
+      "IsOutgoing": true,
+      "ClassName": "_-Ib"
+    },
+    {
+      "Name": "PetSelected",
+      "Id": "1091",
+      "Hash": "48889850",
+      "IsOutgoing": true,
+      "ClassName": "_-m1Q"
+    },
+    {
+      "Name": "MountPet",
+      "Id": "1098",
+      "Hash": "53606711",
+      "IsOutgoing": true,
+      "ClassName": "_-EP"
+    },
+    {
+      "Name": "RespectUser",
+      "Id": "11",
+      "Hash": "17053313",
+      "IsOutgoing": true,
+      "ClassName": "_-M1R"
+    },
+    {
+      "Name": "GetOfficialSongId",
+      "Id": "1104",
+      "Hash": "65561530",
+      "IsOutgoing": true,
+      "ClassName": "_-g18"
+    },
+    {
+      "Name": "UpdateHomeRoom",
+      "Id": "1110",
+      "Hash": "10857028",
+      "IsOutgoing": true,
+      "ClassName": "_-8S"
+    },
+    {
+      "Name": "RentableSpaceStatus",
+      "Id": "1120",
+      "Hash": "44041463",
+      "IsOutgoing": true,
+      "ClassName": "_-b1G"
+    },
+    {
+      "Name": "RemoveOwnRoomRightsRoom",
+      "Id": "1127",
+      "Hash": "20869327",
+      "IsOutgoing": true,
+      "ClassName": "_-N1x"
+    },
+    {
+      "Name": "ApplySnapshot",
+      "Id": "1132",
+      "Hash": "15767494",
+      "IsOutgoing": true,
+      "ClassName": "_-xg"
+    },
+    {
+      "Name": "UpdateRoomCategoryAndTradeSettings",
+      "Id": "1135",
+      "Hash": "26685362",
+      "IsOutgoing": true,
+      "ClassName": "_-o1I"
+    },
+    {
+      "Name": "KickUser",
+      "Id": "1137",
+      "Hash": "33484259",
+      "IsOutgoing": true,
+      "ClassName": "_-X1K"
+    },
+    {
+      "Name": "Whisper",
+      "Id": "1153",
+      "Hash": "57895144",
+      "IsOutgoing": true,
+      "ClassName": "_-31A"
+    },
+    {
+      "Name": "Game2ThrowSnowballAtHuman",
+      "Id": "1159",
+      "Hash": "37599894",
+      "IsOutgoing": true,
+      "ClassName": "Game2ThrowSnowballAtHumanMessageComposer"
+    },
+    {
+      "Name": "GetSnowWarGameTokensOffer",
+      "Id": "1178",
+      "Hash": "27806533",
+      "IsOutgoing": true,
+      "ClassName": "GetSnowWarGameTokensOfferComposer"
+    },
+    {
+      "Name": "GetGift",
+      "Id": "1180",
+      "Hash": "27598891",
+      "IsOutgoing": true,
+      "ClassName": "_-N1E"
+    },
+    {
+      "Name": "GetIsOfferGiftable",
+      "Id": "1184",
+      "Hash": "62990845",
+      "IsOutgoing": true,
+      "ClassName": "_-I1Q"
+    },
+    {
+      "Name": "MyRoomsSearch",
+      "Id": "1191",
+      "Hash": "55762700",
+      "IsOutgoing": true,
+      "ClassName": "_-nk"
+    },
+    {
+      "Name": "GetProductOffer",
+      "Id": "1194",
+      "Hash": "36904447",
+      "IsOutgoing": true,
+      "ClassName": "_-TS"
+    },
+    {
+      "Name": "UpdateGuildIdentity",
+      "Id": "1200",
+      "Hash": "149855",
+      "IsOutgoing": true,
+      "ClassName": "_-m16"
+    },
+    {
+      "Name": "GetDirectClubBuyAvailable",
+      "Id": "1221",
+      "Hash": "34945211",
+      "IsOutgoing": true,
+      "ClassName": "_-D1W"
+    },
+    {
+      "Name": "UnacceptTrading",
+      "Id": "1225",
+      "Hash": "60679928",
+      "IsOutgoing": true,
+      "ClassName": "_-Tu"
+    },
+    {
+      "Name": "ApproveAllMembershipRequests",
+      "Id": "1228",
+      "Hash": "53048087",
+      "IsOutgoing": true,
+      "ClassName": "_-p1u"
+    },
+    {
+      "Name": "Game2QuickJoinGame",
+      "Id": "1231",
+      "Hash": "44123454",
+      "IsOutgoing": true,
+      "ClassName": "_-4U"
+    },
+    {
+      "Name": "GetIsBadgeRequestFulfilled",
+      "Id": "1246",
+      "Hash": "48257652",
+      "IsOutgoing": true,
+      "ClassName": "_-a1X"
+    },
+    {
+      "Name": "RemoveAllRights",
+      "Id": "1249",
+      "Hash": "30567910",
+      "IsOutgoing": true,
+      "ClassName": "_-lx"
+    },
+    {
+      "Name": "RoomAdEventTabAdClicked",
+      "Id": "1272",
+      "Hash": "30604389",
+      "IsOutgoing": true,
+      "ClassName": "_-uD"
+    },
+    {
+      "Name": "RentableSpaceRent",
+      "Id": "1276",
+      "Hash": "8622890",
+      "IsOutgoing": true,
+      "ClassName": "_-km"
+    },
+    {
+      "Name": "GetCategoriesWithUserCount",
+      "Id": "1281",
+      "Hash": "18859061",
+      "IsOutgoing": true,
+      "ClassName": "_-r14"
+    },
+    {
+      "Name": "DeletePendingCallsForHelp",
+      "Id": "1289",
+      "Hash": "54095401",
+      "IsOutgoing": true,
+      "ClassName": "_-x13"
+    },
+    {
+      "Name": "AvatarEffectActivated",
+      "Id": "1293",
+      "Hash": "29035785",
+      "IsOutgoing": true,
+      "ClassName": "_-k1m"
+    },
+    {
+      "Name": "SetObjectData",
+      "Id": "1318",
+      "Hash": "52727095",
+      "IsOutgoing": true,
+      "ClassName": "_-F1u"
+    },
+    {
+      "Name": "HarvestPet",
+      "Id": "1323",
+      "Hash": "23692278",
+      "IsOutgoing": true,
+      "ClassName": "_-F1k"
+    },
+    {
+      "Name": "ExtendRentOrBuyoutStripItem",
+      "Id": "1325",
+      "Hash": "63386473",
+      "IsOutgoing": true,
+      "ClassName": "_-2J"
+    },
+    {
+      "Name": "RedeemCommunityGoalPrize",
+      "Id": "1329",
+      "Hash": "14434584",
+      "IsOutgoing": true,
+      "ClassName": "_-Gq"
+    },
+    {
+      "Name": "BanUserWithDuration",
+      "Id": "1339",
+      "Hash": "34280961",
+      "IsOutgoing": true,
+      "ClassName": "_-V1L"
+    },
+    {
+      "Name": "GetFaqCategories",
+      "Id": "1341",
+      "Hash": "24018105",
+      "IsOutgoing": true,
+      "ClassName": "_-I1j"
+    },
+    {
+      "Name": "CreditVaultStatus",
+      "Id": "1342",
+      "Hash": "38092103",
+      "IsOutgoing": true,
+      "ClassName": "_-615"
+    },
+    {
+      "Name": "GetQuizQuestions",
+      "Id": "1358",
+      "Hash": "50695543",
+      "IsOutgoing": true,
+      "ClassName": "_-jv"
+    },
+    {
+      "Name": "LagWarningReport",
+      "Id": "1384",
+      "Hash": "41462866",
+      "IsOutgoing": true,
+      "ClassName": "_-v8"
+    },
+    {
+      "Name": "CancelQuest",
+      "Id": "1389",
+      "Hash": "54852443",
+      "IsOutgoing": true,
+      "ClassName": "_-Te"
+    },
+    {
+      "Name": "DeactivateGuild",
+      "Id": "1414",
+      "Hash": "66418347",
+      "IsOutgoing": true,
+      "ClassName": "_-z2"
+    },
+    {
+      "Name": "CancelMarketplaceOffer",
+      "Id": "1416",
+      "Hash": "44282627",
+      "IsOutgoing": true,
+      "ClassName": "_-lW"
+    },
+    {
+      "Name": "RespectPet",
+      "Id": "1427",
+      "Hash": "13875810",
+      "IsOutgoing": true,
+      "ClassName": "_-o2"
+    },
+    {
+      "Name": "GetHabboBasicMembershipExtendOffer",
+      "Id": "1448",
+      "Hash": "38240801",
+      "IsOutgoing": true,
+      "ClassName": "_-a1s"
+    },
+    {
+      "Name": "DeselectFavouriteHabboGroup",
+      "Id": "1456",
+      "Hash": "61105663",
+      "IsOutgoing": true,
+      "ClassName": "_-rP"
+    },
+    {
+      "Name": "RequestRoomPropertySet",
+      "Id": "1467",
+      "Hash": "22877402",
+      "IsOutgoing": true,
+      "ClassName": "_-en"
+    },
+    {
+      "Name": "GetCurrentTimingCode",
+      "Id": "1468",
+      "Hash": "25253189",
+      "IsOutgoing": true,
+      "ClassName": "_-91j"
+    },
+    {
+      "Name": "ModToolPreferences",
+      "Id": "1475",
+      "Hash": "10961125",
+      "IsOutgoing": true,
+      "ClassName": "_-cU"
+    },
+    {
+      "Name": "EventLog",
+      "Id": "1482",
+      "Hash": "31654880",
+      "IsOutgoing": true,
+      "ClassName": "_-u10"
+    },
+    {
+      "Name": "GetMarketplaceOffers",
+      "Id": "1512",
+      "Hash": "40519951",
+      "IsOutgoing": true,
+      "ClassName": "_-k14"
+    },
+    {
+      "Name": "PurchaseBasicMembershipExtension",
+      "Id": "1521",
+      "Hash": "22985394",
+      "IsOutgoing": true,
+      "ClassName": "_-M17"
+    },
+    {
+      "Name": "ModToolSanction",
+      "Id": "1525",
+      "Hash": "25299820",
+      "IsOutgoing": true,
+      "ClassName": "_-02e"
+    },
+    {
+      "Name": "GetCatalogPage",
+      "Id": "1526",
+      "Hash": "50664859",
+      "IsOutgoing": true,
+      "ClassName": "_-f0"
+    },
+    {
+      "Name": "RoomDimmerSavePreset",
+      "Id": "1530",
+      "Hash": "1577639",
+      "IsOutgoing": true,
+      "ClassName": "_-J1V"
+    },
+    {
+      "Name": "ConfirmPetBreeding",
+      "Id": "1536",
+      "Hash": "16555740",
+      "IsOutgoing": true,
+      "ClassName": "_-l1L"
+    },
+    {
+      "Name": "SetRandomState",
+      "Id": "1543",
+      "Hash": "3623379",
+      "IsOutgoing": true,
+      "ClassName": "_-b1I"
+    },
+    {
+      "Name": "SearchFaqs",
+      "Id": "1561",
+      "Hash": "62618006",
+      "IsOutgoing": true,
+      "ClassName": "_-c1V"
+    },
+    {
+      "Name": "AddAdminRightsToMember",
+      "Id": "1571",
+      "Hash": "46067993",
+      "IsOutgoing": true,
+      "ClassName": "_-t1A"
+    },
+    {
+      "Name": "NewUserExperienceGetGifts",
+      "Id": "1578",
+      "Hash": "48490504",
+      "IsOutgoing": true,
+      "ClassName": "_-B3"
+    },
+    {
+      "Name": "ChangePosture",
+      "Id": "158",
+      "Hash": "230999",
+      "IsOutgoing": true,
+      "ClassName": "_-H1N"
+    },
+    {
+      "Name": "GetWeeklyCompetitiveLeaderboard",
+      "Id": "159",
+      "Hash": "66592127",
+      "IsOutgoing": true,
+      "ClassName": "GetWeeklyCompetitiveLeaderboardComposer"
+    },
+    {
+      "Name": "SetRelationshipStatus",
+      "Id": "1590",
+      "Hash": "8807292",
+      "IsOutgoing": true,
+      "ClassName": "_-si"
+    },
+    {
+      "Name": "PurchaseSnowWarGameTokensOffer",
+      "Id": "1603",
+      "Hash": "17863121",
+      "IsOutgoing": true,
+      "ClassName": "PurchaseSnowWarGameTokensOfferComposer"
+    },
+    {
+      "Name": "Open",
+      "Id": "1604",
+      "Hash": "17865493",
+      "IsOutgoing": true,
+      "ClassName": "_-M13"
+    },
+    {
+      "Name": "ScrGetKickbackInfo",
+      "Id": "1617",
+      "Hash": "46793998",
+      "IsOutgoing": true,
+      "ClassName": "_-iB"
+    },
+    {
+      "Name": "InfoRetrieve",
+      "Id": "1633",
+      "Hash": "48766684",
+      "IsOutgoing": true,
+      "ClassName": "_-8I"
+    },
+    {
+      "Name": "CancelEvent",
+      "Id": "1639",
+      "Hash": "42135876",
+      "IsOutgoing": true,
+      "ClassName": "_-x14"
+    },
+    {
+      "Name": "Dance",
+      "Id": "1641",
+      "Hash": "29018124",
+      "IsOutgoing": true,
+      "ClassName": "_-CA"
+    },
+    {
+      "Name": "MyFavouriteRoomsSearch",
+      "Id": "1646",
+      "Hash": "59628243",
+      "IsOutgoing": true,
+      "ClassName": "_-DY"
+    },
+    {
+      "Name": "ForwardToARandomPromotedRoom",
+      "Id": "1650",
+      "Hash": "59177513",
+      "IsOutgoing": true,
+      "ClassName": "_-B1d"
+    },
+    {
+      "Name": "UpdateGuildColors",
+      "Id": "1651",
+      "Hash": "62458233",
+      "IsOutgoing": true,
+      "ClassName": "_-E19"
+    },
+    {
+      "Name": "SetChatPreferences",
+      "Id": "1659",
+      "Hash": "3088388",
+      "IsOutgoing": true,
+      "ClassName": "_-7B"
+    },
+    {
+      "Name": "GetFurnitureAliases",
+      "Id": "1674",
+      "Hash": "6195855",
+      "IsOutgoing": true,
+      "ClassName": "_-Uq"
+    },
+    {
+      "Name": "PurchaseRoomAd",
+      "Id": "1681",
+      "Hash": "45492604",
+      "IsOutgoing": true,
+      "ClassName": "_-4c"
+    },
+    {
+      "Name": "OpenCampaignCalendarDoor",
+      "Id": "1692",
+      "Hash": "66059488",
+      "IsOutgoing": true,
+      "ClassName": "_-C1O"
+    },
+    {
+      "Name": "GetWeeklyGameRewardWinners",
+      "Id": "1701",
+      "Hash": "21520579",
+      "IsOutgoing": true,
+      "ClassName": "GetWeeklyGameRewardWinnersComposer"
+    },
+    {
+      "Name": "GetBannedUsersFromRoom",
+      "Id": "1703",
+      "Hash": "1503503",
+      "IsOutgoing": true,
+      "ClassName": "_-B1n"
+    },
+    {
+      "Name": "ChatReviewGuideDecidesOnOffer",
+      "Id": "1721",
+      "Hash": "9886408",
+      "IsOutgoing": true,
+      "ClassName": "_-j1R"
+    },
+    {
+      "Name": "UnmuteUser",
+      "Id": "1727",
+      "Hash": "52684690",
+      "IsOutgoing": true,
+      "ClassName": "_-31e"
+    },
+    {
+      "Name": "ModerateThread",
+      "Id": "1734",
+      "Hash": "14836356",
+      "IsOutgoing": true,
+      "ClassName": "_-b1p"
+    },
+    {
+      "Name": "LatencyPingRequest",
+      "Id": "1742",
+      "Hash": "56648283",
+      "IsOutgoing": true,
+      "ClassName": "_-W1A"
+    },
+    {
+      "Name": "Game2GetTotalGroupLeaderboard",
+      "Id": "1759",
+      "Hash": "65158399",
+      "IsOutgoing": true,
+      "ClassName": "Game2GetTotalGroupLeaderboardComposer"
+    },
+    {
+      "Name": "Game2CheckGameDirectoryStatus",
+      "Id": "1761",
+      "Hash": "51782583",
+      "IsOutgoing": true,
+      "ClassName": "Game2CheckGameDirectoryStatusMessageComposer"
+    },
+    {
+      "Name": "GetSelectedBadges",
+      "Id": "1765",
+      "Hash": "44397891",
+      "IsOutgoing": true,
+      "ClassName": "_-H1u"
+    },
+    {
+      "Name": "PassCarryItem",
+      "Id": "1775",
+      "Hash": "49871633",
+      "IsOutgoing": true,
+      "ClassName": "_-P1U"
+    },
+    {
+      "Name": "CheckUserName",
+      "Id": "1780",
+      "Hash": "39696553",
+      "IsOutgoing": true,
+      "ClassName": "_-3z"
+    },
+    {
+      "Name": "GetTargetedOffer",
+      "Id": "1781",
+      "Hash": "43603258",
+      "IsOutgoing": true,
+      "ClassName": "_-G1v"
+    },
+    {
+      "Name": "GetFaqText",
+      "Id": "1789",
+      "Hash": "21933905",
+      "IsOutgoing": true,
+      "ClassName": "_-f1L"
+    },
+    {
+      "Name": "AvatarExpression",
+      "Id": "179",
+      "Hash": "17907308",
+      "IsOutgoing": true,
+      "ClassName": "_-329"
+    },
+    {
+      "Name": "GetCatalogIndex",
+      "Id": "1807",
+      "Hash": "45933772",
+      "IsOutgoing": true,
+      "ClassName": "_-Sc"
+    },
+    {
+      "Name": "GetUserGameAchievements",
+      "Id": "1819",
+      "Hash": "5425146",
+      "IsOutgoing": true,
+      "ClassName": "GetUserGameAchievementsMessageComposer"
+    },
+    {
+      "Name": "LetUserIn",
+      "Id": "184",
+      "Hash": "5223998",
+      "IsOutgoing": true,
+      "ClassName": "_-GT"
+    },
+    {
+      "Name": "CreditFurniRedeem",
+      "Id": "1848",
+      "Hash": "62855489",
+      "IsOutgoing": true,
+      "ClassName": "_-T1X"
+    },
+    {
+      "Name": "BreedPets",
+      "Id": "1875",
+      "Hash": "12963143",
+      "IsOutgoing": true,
+      "ClassName": "_-D1Y"
+    },
+    {
+      "Name": "SetPhoneNumberVerificationStatus",
+      "Id": "1882",
+      "Hash": "14081900",
+      "IsOutgoing": true,
+      "ClassName": "_-SZ"
+    },
+    {
+      "Name": "GetCfhStatus",
+      "Id": "1887",
+      "Hash": "27365507",
+      "IsOutgoing": true,
+      "ClassName": "_-P17"
+    },
+    {
+      "Name": "UpdateRoomThumbnail",
+      "Id": "1902",
+      "Hash": "53330552",
+      "IsOutgoing": true,
+      "ClassName": "_-d3"
+    },
+    {
+      "Name": "GetForumStats",
+      "Id": "1910",
+      "Hash": "12603749",
+      "IsOutgoing": true,
+      "ClassName": "_-11y"
+    },
+    {
+      "Name": "PostMessage",
+      "Id": "1914",
+      "Hash": "55429698",
+      "IsOutgoing": true,
+      "ClassName": "_-ud"
+    },
+    {
+      "Name": "GetGuildEditorData",
+      "Id": "1925",
+      "Hash": "20908074",
+      "IsOutgoing": true,
+      "ClassName": "_-F1W"
+    },
+    {
+      "Name": "GetRelationshipStatusInfo",
+      "Id": "1930",
+      "Hash": "50466518",
+      "IsOutgoing": true,
+      "ClassName": "_-I8"
+    },
+    {
+      "Name": "Game2PlayAgain",
+      "Id": "1954",
+      "Hash": "12138304",
+      "IsOutgoing": true,
+      "ClassName": "Game2PlayAgainMessageComposer"
+    },
+    {
+      "Name": "NavigatorSetSearchCodeViewMode",
+      "Id": "1955",
+      "Hash": "62746268",
+      "IsOutgoing": true,
+      "ClassName": "_-UH"
+    },
+    {
+      "Name": "GetMOTD",
+      "Id": "1958",
+      "Hash": "65573909",
+      "IsOutgoing": true,
+      "ClassName": "_-91C"
+    },
+    {
+      "Name": "GetInterstitial",
+      "Id": "1990",
+      "Hash": "37685299",
+      "IsOutgoing": true,
+      "ClassName": "_-31l"
+    },
+    {
+      "Name": "NavigatorRemoveCollapsedCategory",
+      "Id": "200",
+      "Hash": "59167590",
+      "IsOutgoing": true,
+      "ClassName": "_-T1R"
+    },
+    {
+      "Name": "SubmitRoomToCompetition",
+      "Id": "2000",
+      "Hash": "48779793",
+      "IsOutgoing": true,
+      "ClassName": "_-f10"
+    },
+    {
+      "Name": "PollStart",
+      "Id": "2029",
+      "Hash": "34550710",
+      "IsOutgoing": true,
+      "ClassName": "_-9G"
+    },
+    {
+      "Name": "RoomsWithHighestScoreSearch",
+      "Id": "203",
+      "Hash": "35416756",
+      "IsOutgoing": true,
+      "ClassName": "_-02m"
+    },
+    {
+      "Name": "GetCommunityGoalEarnedPrizes",
+      "Id": "2031",
+      "Hash": "17591975",
+      "IsOutgoing": true,
+      "ClassName": "_-GE"
+    },
+    {
+      "Name": "AcceptTrading",
+      "Id": "2033",
+      "Hash": "44625493",
+      "IsOutgoing": true,
+      "ClassName": "_-E13"
+    },
+    {
+      "Name": "RoomAdPurchaseInitiated",
+      "Id": "2039",
+      "Hash": "52058165",
+      "IsOutgoing": true,
+      "ClassName": "_-v2"
+    },
+    {
+      "Name": "GetHabboGroupBadges",
+      "Id": "2043",
+      "Hash": "45634724",
+      "IsOutgoing": true,
+      "ClassName": "_-7F"
+    },
+    {
+      "Name": "GetClubOffers",
+      "Id": "2049",
+      "Hash": "37736673",
+      "IsOutgoing": true,
+      "ClassName": "_-UY"
+    },
+    {
+      "Name": "ForwardToACompetitionRoom",
+      "Id": "2050",
+      "Hash": "34090260",
+      "IsOutgoing": true,
+      "ClassName": "_-G1F"
+    },
+    {
+      "Name": "OpenPetPackage",
+      "Id": "2055",
+      "Hash": "29755367",
+      "IsOutgoing": true,
+      "ClassName": "_-md"
+    },
+    {
+      "Name": "ExtendRentOrBuyoutFurni",
+      "Id": "2063",
+      "Hash": "46324881",
+      "IsOutgoing": true,
+      "ClassName": "_-f1I"
+    },
+    {
+      "Name": "CommandBot",
+      "Id": "2065",
+      "Hash": "27950026",
+      "IsOutgoing": true,
+      "ClassName": "_-fi"
+    },
+    {
+      "Name": "RejectMembershipRequest",
+      "Id": "208",
+      "Hash": "12698356",
+      "IsOutgoing": true,
+      "ClassName": "_-81Y"
+    },
+    {
+      "Name": "GetConcurrentUsersReward",
+      "Id": "209",
+      "Hash": "64479624",
+      "IsOutgoing": true,
+      "ClassName": "_-l1q"
+    },
+    {
+      "Name": "RenderRoomThumbnail",
+      "Id": "2094",
+      "Hash": "69227",
+      "IsOutgoing": true,
+      "ClassName": "_-PG"
+    },
+    {
+      "Name": "MysteryBoxWaitingCanceled",
+      "Id": "2097",
+      "Hash": "48788849",
+      "IsOutgoing": true,
+      "ClassName": "_-w1P"
+    },
+    {
+      "Name": "AvatarEffectSelected",
+      "Id": "2098",
+      "Hash": "13531531",
+      "IsOutgoing": true,
+      "ClassName": "_-G1X"
+    },
+    {
+      "Name": "ReleaseIssues",
+      "Id": "21",
+      "Hash": "48630964",
+      "IsOutgoing": true,
+      "ClassName": "_-z12"
+    },
+    {
+      "Name": "Game2LeaveGame",
+      "Id": "2107",
+      "Hash": "32102252",
+      "IsOutgoing": true,
+      "ClassName": "_-J4"
+    },
+    {
+      "Name": "UseWallItem",
+      "Id": "2129",
+      "Hash": "50323820",
+      "IsOutgoing": true,
+      "ClassName": "_-DT"
+    },
+    {
+      "Name": "PurchaseFromCatalogAsGift",
+      "Id": "2132",
+      "Hash": "48883615",
+      "IsOutgoing": true,
+      "ClassName": "_-91"
+    },
+    {
+      "Name": "ForwardToRandomCompetitionRoom",
+      "Id": "2161",
+      "Hash": "38891250",
+      "IsOutgoing": true,
+      "ClassName": "_-Ml"
+    },
+    {
+      "Name": "CallForHelp",
+      "Id": "2170",
+      "Hash": "3865173",
+      "IsOutgoing": true,
+      "ClassName": "_-9f"
+    },
+    {
+      "Name": "StartCampaign",
+      "Id": "219",
+      "Hash": "57615760",
+      "IsOutgoing": true,
+      "ClassName": "_-01W"
+    },
+    {
+      "Name": "GetThreads",
+      "Id": "2193",
+      "Hash": "64879470",
+      "IsOutgoing": true,
+      "ClassName": "_-o19"
+    },
+    {
+      "Name": "PurchaseVipMembershipExtension",
+      "Id": "2202",
+      "Hash": "57562809",
+      "IsOutgoing": true,
+      "ClassName": "_-H1y"
+    },
+    {
+      "Name": "PlacePet",
+      "Id": "221",
+      "Hash": "47050372",
+      "IsOutgoing": true,
+      "ClassName": "_-W11"
+    },
+    {
+      "Name": "RedeemVoucher",
+      "Id": "2218",
+      "Hash": "50102218",
+      "IsOutgoing": true,
+      "ClassName": "_-A1P"
+    },
+    {
+      "Name": "SaveWardrobeOutfit",
+      "Id": "2219",
+      "Hash": "12693918",
+      "IsOutgoing": true,
+      "ClassName": "_-81f"
+    },
+    {
+      "Name": "GetFaqCategory",
+      "Id": "222",
+      "Hash": "21644229",
+      "IsOutgoing": true,
+      "ClassName": "_-d17"
+    },
+    {
+      "Name": "SetRoomCameraPreferences",
+      "Id": "2220",
+      "Hash": "38787544",
+      "IsOutgoing": true,
+      "ClassName": "_-Z9"
+    },
+    {
+      "Name": "NavigatorAddCollapsedCategory",
+      "Id": "2242",
+      "Hash": "22689808",
+      "IsOutgoing": true,
+      "ClassName": "_-51r"
+    },
+    {
+      "Name": "GetOfficialRooms",
+      "Id": "2258",
+      "Hash": "2533231",
+      "IsOutgoing": true,
+      "ClassName": "_-f1F"
+    },
+    {
+      "Name": "Chat",
+      "Id": "2266",
+      "Hash": "42137308",
+      "IsOutgoing": true,
+      "ClassName": "_-w17"
+    },
+    {
+      "Name": "Shout",
+      "Id": "2277",
+      "Hash": "60081642",
+      "IsOutgoing": true,
+      "ClassName": "_-HX"
+    },
+    {
+      "Name": "GetSongInfo",
+      "Id": "2292",
+      "Hash": "22081476",
+      "IsOutgoing": true,
+      "ClassName": "_-Fs"
+    },
+    {
+      "Name": "GetRoomAdPurchaseInfo",
+      "Id": "2298",
+      "Hash": "20561848",
+      "IsOutgoing": true,
+      "ClassName": "_-B1N"
+    },
+    {
+      "Name": "CreateGuild",
+      "Id": "231",
+      "Hash": "511887",
+      "IsOutgoing": true,
+      "ClassName": "_-dJ"
+    },
+    {
+      "Name": "ResetUnseenItemIds",
+      "Id": "2325",
+      "Hash": "16609919",
+      "IsOutgoing": true,
+      "ClassName": "_-DF"
+    },
+    {
+      "Name": "Disconnect",
+      "Id": "2327",
+      "Hash": "49044892",
+      "IsOutgoing": true,
+      "ClassName": "_-E14"
+    },
+    {
+      "Name": "InitDiffieHandshake",
+      "Id": "2329",
+      "Hash": "64268160",
+      "IsOutgoing": true,
+      "ClassName": "_-41q"
+    },
+    {
+      "Name": "Pong",
+      "Id": "2346",
+      "Hash": "42202994",
+      "IsOutgoing": true,
+      "ClassName": "_-K10"
+    },
+    {
+      "Name": "RequestFriend",
+      "Id": "2347",
+      "Hash": "63535124",
+      "IsOutgoing": true,
+      "ClassName": "_-I1J"
+    },
+    {
+      "Name": "GetHabboClubExtendOffer",
+      "Id": "2351",
+      "Hash": "39190879",
+      "IsOutgoing": true,
+      "ClassName": "_-uS"
+    },
+    {
+      "Name": "ModeratorAction",
+      "Id": "2388",
+      "Hash": "23909939",
+      "IsOutgoing": true,
+      "ClassName": "_-bk"
+    },
+    {
+      "Name": "GiveSupplementToPet",
+      "Id": "2397",
+      "Hash": "14700275",
+      "IsOutgoing": true,
+      "ClassName": "_-WA"
+    },
+    {
+      "Name": "MyGuildBasesSearch",
+      "Id": "2403",
+      "Hash": "25692540",
+      "IsOutgoing": true,
+      "ClassName": "_-77"
+    },
+    {
+      "Name": "AmbassadorAlert",
+      "Id": "2428",
+      "Hash": "53453427",
+      "IsOutgoing": true,
+      "ClassName": "_-Q1G"
+    },
+    {
+      "Name": "UpdateForumSettings",
+      "Id": "2441",
+      "Hash": "18137316",
+      "IsOutgoing": true,
+      "ClassName": "_-s6"
+    },
+    {
+      "Name": "Game2GameChat",
+      "Id": "2446",
+      "Hash": "25496434",
+      "IsOutgoing": true,
+      "ClassName": "Game2GameChatMessageComposer"
+    },
+    {
+      "Name": "LatencyPingReport",
+      "Id": "2455",
+      "Hash": "10429724",
+      "IsOutgoing": true,
+      "ClassName": "_-p1f"
+    },
+    {
+      "Name": "GetThread",
+      "Id": "2462",
+      "Hash": "8391370",
+      "IsOutgoing": true,
+      "ClassName": "_-L1m"
+    },
+    {
+      "Name": "CallForHelpFromForumMessage",
+      "Id": "2469",
+      "Hash": "21201098",
+      "IsOutgoing": true,
+      "ClassName": "_-C"
+    },
+    {
+      "Name": "RoomTextSearch",
+      "Id": "2470",
+      "Hash": "20484818",
+      "IsOutgoing": true,
+      "ClassName": "_-f1S"
+    },
+    {
+      "Name": "UniqueID",
+      "Id": "2471",
+      "Hash": "22882960",
+      "IsOutgoing": true,
+      "ClassName": "_-91M"
+    },
+    {
+      "Name": "GetCraftingRecipe",
+      "Id": "2475",
+      "Hash": "57767782",
+      "IsOutgoing": true,
+      "ClassName": "_-dC"
+    },
+    {
+      "Name": "GetTalentTrack",
+      "Id": "2480",
+      "Hash": "15674164",
+      "IsOutgoing": true,
+      "ClassName": "_-11f"
+    },
+    {
+      "Name": "MoveObject",
+      "Id": "2490",
+      "Hash": "32966247",
+      "IsOutgoing": true,
+      "ClassName": "_-Pv"
+    },
+    {
+      "Name": "MoveWallItem",
+      "Id": "25",
+      "Hash": "175293",
+      "IsOutgoing": true,
+      "ClassName": "_-1y"
+    },
+    {
+      "Name": "CompostPlant",
+      "Id": "2504",
+      "Hash": "12844374",
+      "IsOutgoing": true,
+      "ClassName": "_-Vj"
+    },
+    {
+      "Name": "GetClientFaqs",
+      "Id": "2509",
+      "Hash": "26948044",
+      "IsOutgoing": true,
+      "ClassName": "_-Oy"
+    },
+    {
+      "Name": "GetGuildMembers",
+      "Id": "2516",
+      "Hash": "48932206",
+      "IsOutgoing": true,
+      "ClassName": "_-q1O"
+    },
+    {
+      "Name": "GetConcurrentUsersGoalProgress",
+      "Id": "2552",
+      "Hash": "38841670",
+      "IsOutgoing": true,
+      "ClassName": "_-k"
+    },
+    {
+      "Name": "PurchasePhoto",
+      "Id": "2558",
+      "Hash": "14270750",
+      "IsOutgoing": true,
+      "ClassName": "_-a1U"
+    },
+    {
+      "Name": "CallForHelpFromSelfie",
+      "Id": "2575",
+      "Hash": "64636290",
+      "IsOutgoing": true,
+      "ClassName": "_-fp"
+    },
+    {
+      "Name": "GetTalentTrackLevel",
+      "Id": "258",
+      "Hash": "51319614",
+      "IsOutgoing": true,
+      "ClassName": "_-k1J"
+    },
+    {
+      "Name": "GuideSessionResolved",
+      "Id": "2582",
+      "Hash": "2679067",
+      "IsOutgoing": true,
+      "ClassName": "_-pT"
+    },
+    {
+      "Name": "GetPopularRoomTags",
+      "Id": "2587",
+      "Hash": "66572856",
+      "IsOutgoing": true,
+      "ClassName": "_-Y1T"
+    },
+    {
+      "Name": "ScrGetUserInfo",
+      "Id": "2591",
+      "Hash": "62802394",
+      "IsOutgoing": true,
+      "ClassName": "_-51z"
+    },
+    {
+      "Name": "DefaultSanction",
+      "Id": "2592",
+      "Hash": "44643603",
+      "IsOutgoing": true,
+      "ClassName": "_-m14"
+    },
+    {
+      "Name": "RemoveBotFromFlat",
+      "Id": "2597",
+      "Hash": "30123835",
+      "IsOutgoing": true,
+      "ClassName": "_-uL"
+    },
+    {
+      "Name": "AddFavouriteRoom",
+      "Id": "2605",
+      "Hash": "27037160",
+      "IsOutgoing": true,
+      "ClassName": "_-11Z"
+    },
+    {
+      "Name": "CommunityGoalVote",
+      "Id": "2632",
+      "Hash": "4570028",
+      "IsOutgoing": true,
+      "ClassName": "_-018"
+    },
+    {
+      "Name": "GetGuildCreationInfo",
+      "Id": "2633",
+      "Hash": "16127101",
+      "IsOutgoing": true,
+      "ClassName": "_-eX"
+    },
+    {
+      "Name": "BuildersClubPlaceRoomItem",
+      "Id": "2644",
+      "Hash": "17042198",
+      "IsOutgoing": true,
+      "ClassName": "_-dT"
+    },
+    {
+      "Name": "GetPendingCallsForHelp",
+      "Id": "2652",
+      "Hash": "21574462",
+      "IsOutgoing": true,
+      "ClassName": "_-ef"
+    },
+    {
+      "Name": "GetGuildFurniContextMenuInfo",
+      "Id": "2657",
+      "Hash": "31497787",
+      "IsOutgoing": true,
+      "ClassName": "_-f1H"
+    },
+    {
+      "Name": "MarkCatalogNewAdditionsPageOpened",
+      "Id": "2659",
+      "Hash": "19013575",
+      "IsOutgoing": true,
+      "ClassName": "_-X13"
+    },
+    {
+      "Name": "GetCustomRoomFilter",
+      "Id": "2672",
+      "Hash": "31747823",
+      "IsOutgoing": true,
+      "ClassName": "_-VJ"
+    },
+    {
+      "Name": "GetGuildEditInfo",
+      "Id": "2688",
+      "Hash": "33189039",
+      "IsOutgoing": true,
+      "ClassName": "_-Q18"
+    },
+    {
+      "Name": "GetRoomChatlog",
+      "Id": "27",
+      "Hash": "61256166",
+      "IsOutgoing": true,
+      "ClassName": "_-uf"
+    },
+    {
+      "Name": "PublishPhoto",
+      "Id": "2713",
+      "Hash": "3913996",
+      "IsOutgoing": true,
+      "ClassName": "_-Tt"
+    },
+    {
+      "Name": "GetUserChatlog",
+      "Id": "2731",
+      "Hash": "10267631",
+      "IsOutgoing": true,
+      "ClassName": "_-S1I"
+    },
+    {
+      "Name": "SetMannequinFigure",
+      "Id": "2745",
+      "Hash": "44538317",
+      "IsOutgoing": true,
+      "ClassName": "_-an"
+    },
+    {
+      "Name": "ChatReviewGuideDetached",
+      "Id": "2749",
+      "Hash": "61502840",
+      "IsOutgoing": true,
+      "ClassName": "_-Wt"
+    },
+    {
+      "Name": "ModMessage",
+      "Id": "2756",
+      "Hash": "55028720",
+      "IsOutgoing": true,
+      "ClassName": "_-j1v"
+    },
+    {
+      "Name": "UpdateThread",
+      "Id": "2764",
+      "Hash": "15876907",
+      "IsOutgoing": true,
+      "ClassName": "_-21C"
+    },
+    {
+      "Name": "Game2SetUserMoveTarget",
+      "Id": "2766",
+      "Hash": "28880957",
+      "IsOutgoing": true,
+      "ClassName": "Game2SetUserMoveTargetMessageComposer"
+    },
+    {
+      "Name": "SetChatStylePreference",
+      "Id": "2768",
+      "Hash": "29578451",
+      "IsOutgoing": true,
+      "ClassName": "_-uY"
+    },
+    {
+      "Name": "PeerUsersClassification",
+      "Id": "2771",
+      "Hash": "20247990",
+      "IsOutgoing": true,
+      "ClassName": "_-Cz"
+    },
+    {
+      "Name": "FindNewFriends",
+      "Id": "2798",
+      "Hash": "2601186",
+      "IsOutgoing": true,
+      "ClassName": "_-bL"
+    },
+    {
+      "Name": "ConfirmAcceptTrading",
+      "Id": "280",
+      "Hash": "14455523",
+      "IsOutgoing": true,
+      "ClassName": "_-PF"
+    },
+    {
+      "Name": "SetClothingChangeData",
+      "Id": "2800",
+      "Hash": "28649262",
+      "IsOutgoing": true,
+      "ClassName": "_-CW"
+    },
+    {
+      "Name": "Game2LoadStageReady",
+      "Id": "2807",
+      "Hash": "15271547",
+      "IsOutgoing": true,
+      "ClassName": "Game2LoadStageReadyMessageComposer"
+    },
+    {
+      "Name": "AddItemToTrade",
+      "Id": "2809",
+      "Hash": "50833958",
+      "IsOutgoing": true,
+      "ClassName": "_-H1Z"
+    },
+    {
+      "Name": "GuideSessionIsTyping",
+      "Id": "281",
+      "Hash": "33092577",
+      "IsOutgoing": true,
+      "ClassName": "_-9F"
+    },
+    {
+      "Name": "CloseTrading",
+      "Id": "2819",
+      "Hash": "27863937",
+      "IsOutgoing": true,
+      "ClassName": "_-d1n"
+    },
+    {
+      "Name": "SetTargetedOfferState",
+      "Id": "2821",
+      "Hash": "13858403",
+      "IsOutgoing": true,
+      "ClassName": "_-32L"
+    },
+    {
+      "Name": "CloseIssueDefaultAction",
+      "Id": "2824",
+      "Hash": "26571712",
+      "IsOutgoing": true,
+      "ClassName": "_-d1v"
+    },
+    {
+      "Name": "GetUnreadForumsCount",
+      "Id": "2850",
+      "Hash": "45988614",
+      "IsOutgoing": true,
+      "ClassName": "_-81a"
+    },
+    {
+      "Name": "GetGuestRoom",
+      "Id": "2855",
+      "Hash": "42371273",
+      "IsOutgoing": true,
+      "ClassName": "_-CL"
+    },
+    {
+      "Name": "GetWardrobe",
+      "Id": "287",
+      "Hash": "14419821",
+      "IsOutgoing": true,
+      "ClassName": "_-I1r"
+    },
+    {
+      "Name": "ThrowDice",
+      "Id": "2894",
+      "Hash": "30804749",
+      "IsOutgoing": true,
+      "ClassName": "_-O1A"
+    },
+    {
+      "Name": "GetYoutubeDisplayStatus",
+      "Id": "2896",
+      "Hash": "24121565",
+      "IsOutgoing": true,
+      "ClassName": "_-21z"
+    },
+    {
+      "Name": "NewUserExperienceScriptProceed",
+      "Id": "2914",
+      "Hash": "36615679",
+      "IsOutgoing": true,
+      "ClassName": "_-ci"
+    },
+    {
+      "Name": "GetPetCommands",
+      "Id": "2924",
+      "Hash": "16458469",
+      "IsOutgoing": true,
+      "ClassName": "_-QN"
+    },
+    {
+      "Name": "SetIgnoreRoomInvites",
+      "Id": "2926",
+      "Hash": "20599914",
+      "IsOutgoing": true,
+      "ClassName": "_-g1H"
+    },
+    {
+      "Name": "GetExtendedProfileByName",
+      "Id": "2929",
+      "Hash": "47176343",
+      "IsOutgoing": true,
+      "ClassName": "_-22D"
+    },
+    {
+      "Name": "GuildBaseSearch",
+      "Id": "2945",
+      "Hash": "8352109",
+      "IsOutgoing": true,
+      "ClassName": "_-G1C"
+    },
+    {
+      "Name": "UseFurniture",
+      "Id": "2949",
+      "Hash": "3989940",
+      "IsOutgoing": true,
+      "ClassName": "_-N1K"
+    },
+    {
+      "Name": "GetExtendedProfile",
+      "Id": "2952",
+      "Hash": "5620158",
+      "IsOutgoing": true,
+      "ClassName": "_-m1D"
+    },
+    {
+      "Name": "ResetPhoneNumberState",
+      "Id": "296",
+      "Hash": "25058257",
+      "IsOutgoing": true,
+      "ClassName": "_-D1q"
+    },
+    {
+      "Name": "EnterOneWayDoor",
+      "Id": "2965",
+      "Hash": "54041329",
+      "IsOutgoing": true,
+      "ClassName": "_-Wx"
+    },
+    {
+      "Name": "GuideSessionRequesterCancels",
+      "Id": "2969",
+      "Hash": "45118907",
+      "IsOutgoing": true,
+      "ClassName": "_-aD"
+    },
+    {
+      "Name": "GetNowPlaying",
+      "Id": "297",
+      "Hash": "6956456",
+      "IsOutgoing": true,
+      "ClassName": "_-D1X"
+    },
+    {
+      "Name": "CancelPetBreeding",
+      "Id": "2973",
+      "Hash": "43216271",
+      "IsOutgoing": true,
+      "ClassName": "_-j10"
+    },
+    {
+      "Name": "WithdrawCreditVault",
+      "Id": "2984",
+      "Hash": "49967061",
+      "IsOutgoing": true,
+      "ClassName": "_-91p"
+    },
+    {
+      "Name": "UpdateCondition",
+      "Id": "2994",
+      "Hash": "38233575",
+      "IsOutgoing": true,
+      "ClassName": "_-VC"
+    },
+    {
+      "Name": "IgnoreUser",
+      "Id": "3012",
+      "Hash": "53294272",
+      "IsOutgoing": true,
+      "ClassName": "_-W18"
+    },
+    {
+      "Name": "ModerateMessage",
+      "Id": "3013",
+      "Hash": "48657561",
+      "IsOutgoing": true,
+      "ClassName": "_-LT"
+    },
+    {
+      "Name": "RateFlat",
+      "Id": "3021",
+      "Hash": "11144211",
+      "IsOutgoing": true,
+      "ClassName": "_-Ry"
+    },
+    {
+      "Name": "MyFriendsRoomsSearch",
+      "Id": "3031",
+      "Hash": "33894570",
+      "IsOutgoing": true,
+      "ClassName": "_-x1i"
+    },
+    {
+      "Name": "GetMarketplaceOwnOffers",
+      "Id": "304",
+      "Hash": "20668333",
+      "IsOutgoing": true,
+      "ClassName": "_-R1P"
+    },
+    {
+      "Name": "GuideSessionInviteRequester",
+      "Id": "3048",
+      "Hash": "6883221",
+      "IsOutgoing": true,
+      "ClassName": "_-21y"
+    },
+    {
+      "Name": "RequestFurniInventoryWhenNotInRoom",
+      "Id": "3053",
+      "Hash": "65893970",
+      "IsOutgoing": true,
+      "ClassName": "_-D1G"
+    },
+    {
+      "Name": "CallForHelpFromForumThread",
+      "Id": "3062",
+      "Hash": "62999330",
+      "IsOutgoing": true,
+      "ClassName": "_-44"
+    },
+    {
+      "Name": "GetHotLooks",
+      "Id": "3064",
+      "Hash": "57664488",
+      "IsOutgoing": true,
+      "ClassName": "_-21F"
+    },
+    {
+      "Name": "SetItemData",
+      "Id": "3068",
+      "Hash": "16577099",
+      "IsOutgoing": true,
+      "ClassName": "_-Hp"
+    },
+    {
+      "Name": "GetResolutionAchievements",
+      "Id": "3078",
+      "Hash": "26669028",
+      "IsOutgoing": true,
+      "ClassName": "_-Dj"
+    },
+    {
+      "Name": "Game2GetAccountGameStatus",
+      "Id": "3084",
+      "Hash": "10240961",
+      "IsOutgoing": true,
+      "ClassName": "Game2GetAccountGameStatusMessageComposer"
+    },
+    {
+      "Name": "ApproveName",
+      "Id": "3085",
+      "Hash": "60580335",
+      "IsOutgoing": true,
+      "ClassName": "_-612"
+    },
+    {
+      "Name": "CustomizePetWithFurni",
+      "Id": "3092",
+      "Hash": "57656925",
+      "IsOutgoing": true,
+      "ClassName": "_-cs"
+    },
+    {
+      "Name": "AcceptFriend",
+      "Id": "3095",
+      "Hash": "46071449",
+      "IsOutgoing": true,
+      "ClassName": "_-FT"
+    },
+    {
+      "Name": "PollReject",
+      "Id": "3098",
+      "Hash": "27921517",
+      "IsOutgoing": true,
+      "ClassName": "_-AM"
+    },
+    {
+      "Name": "ModTradingLock",
+      "Id": "3104",
+      "Hash": "47530006",
+      "IsOutgoing": true,
+      "ClassName": "_-OU"
+    },
+    {
+      "Name": "FollowFriend",
+      "Id": "3120",
+      "Hash": "24647552",
+      "IsOutgoing": true,
+      "ClassName": "_-U1M"
+    },
+    {
+      "Name": "GetAchievements",
+      "Id": "3127",
+      "Hash": "7954964",
+      "IsOutgoing": true,
+      "ClassName": "_-h1x"
+    },
+    {
+      "Name": "ControlYoutubeDisplayPlayback",
+      "Id": "3129",
+      "Hash": "31665688",
+      "IsOutgoing": true,
+      "ClassName": "_-x1j"
+    },
+    {
+      "Name": "AddSpamWallPostIt",
+      "Id": "313",
+      "Hash": "47136405",
+      "IsOutgoing": true,
+      "ClassName": "_-I1q"
+    },
+    {
+      "Name": "NewNavigatorSearch",
+      "Id": "3133",
+      "Hash": "43304686",
+      "IsOutgoing": true,
+      "ClassName": "_-u1g"
+    },
+    {
+      "Name": "FriendFurniConfirmLock",
+      "Id": "3145",
+      "Hash": "39567352",
+      "IsOutgoing": true,
+      "ClassName": "_-17"
+    },
+    {
+      "Name": "RenderRoom",
+      "Id": "315",
+      "Hash": "14920772",
+      "IsOutgoing": true,
+      "ClassName": "_-lH"
+    },
+    {
+      "Name": "Game2GetWeeklyFriendsLeaderboard",
+      "Id": "3154",
+      "Hash": "59467483",
+      "IsOutgoing": true,
+      "ClassName": "Game2GetWeeklyFriendsLeaderboardComposer"
+    },
+    {
+      "Name": "GetSoundSettings",
+      "Id": "3164",
+      "Hash": "49347015",
+      "IsOutgoing": true,
+      "ClassName": "_-I1a"
+    },
+    {
+      "Name": "MovePet",
+      "Id": "3165",
+      "Hash": "50294666",
+      "IsOutgoing": true,
+      "ClassName": "_-D1C"
+    },
+    {
+      "Name": "AddItemsToTrade",
+      "Id": "3173",
+      "Hash": "16336406",
+      "IsOutgoing": true,
+      "ClassName": "_-V1A"
+    },
+    {
+      "Name": "SetRoomSessionTags",
+      "Id": "3187",
+      "Hash": "64993271",
+      "IsOutgoing": true,
+      "ClassName": "_-NX"
+    },
+    {
+      "Name": "EditEvent",
+      "Id": "3199",
+      "Hash": "11903911",
+      "IsOutgoing": true,
+      "ClassName": "_-Jq"
+    },
+    {
+      "Name": "VoteForRoom",
+      "Id": "3201",
+      "Hash": "2683661",
+      "IsOutgoing": true,
+      "ClassName": "_-OL"
+    },
+    {
+      "Name": "UnblockGroupMember",
+      "Id": "321",
+      "Hash": "28272749",
+      "IsOutgoing": true,
+      "ClassName": "_-d1M"
+    },
+    {
+      "Name": "UnignoreUser",
+      "Id": "3216",
+      "Hash": "49131481",
+      "IsOutgoing": true,
+      "ClassName": "_-rH"
+    },
+    {
+      "Name": "RoomUsersClassification",
+      "Id": "3219",
+      "Hash": "56885004",
+      "IsOutgoing": true,
+      "ClassName": "_-1Y"
+    },
+    {
+      "Name": "IgnoreUserId",
+      "Id": "322",
+      "Hash": "57787318",
+      "IsOutgoing": true,
+      "ClassName": "_-hC"
+    },
+    {
+      "Name": "GetSecondsUntil",
+      "Id": "3220",
+      "Hash": "62331491",
+      "IsOutgoing": true,
+      "ClassName": "_-Vf"
+    },
+    {
+      "Name": "GetCraftingRecipesAvailable",
+      "Id": "3239",
+      "Hash": "13731878",
+      "IsOutgoing": true,
+      "ClassName": "_-hj"
+    },
+    {
+      "Name": "SetUIFlags",
+      "Id": "324",
+      "Hash": "58713911",
+      "IsOutgoing": true,
+      "ClassName": "_-s1r"
+    },
+    {
+      "Name": "OpenMysteryTrophy",
+      "Id": "3268",
+      "Hash": "9521066",
+      "IsOutgoing": true,
+      "ClassName": "_-sY"
+    },
+    {
+      "Name": "MyRecommendedRooms",
+      "Id": "3271",
+      "Hash": "51921052",
+      "IsOutgoing": true,
+      "ClassName": "_-7K"
+    },
+    {
+      "Name": "SetRoomBackgroundColorData",
+      "Id": "3274",
+      "Hash": "13862865",
+      "IsOutgoing": true,
+      "ClassName": "_-P3"
+    },
+    {
+      "Name": "CraftSecret",
+      "Id": "3276",
+      "Hash": "8982304",
+      "IsOutgoing": true,
+      "ClassName": "_-ga"
+    },
+    {
+      "Name": "NewNavigatorInit",
+      "Id": "3284",
+      "Hash": "53402119",
+      "IsOutgoing": true,
+      "ClassName": "_-b1z"
+    },
+    {
+      "Name": "Game2RequestFullStatusUpdate",
+      "Id": "3287",
+      "Hash": "10852974",
+      "IsOutgoing": true,
+      "ClassName": "Game2RequestFullStatusUpdateMessageComposer"
+    },
+    {
+      "Name": "GetDailyQuest",
+      "Id": "329",
+      "Hash": "31815862",
+      "IsOutgoing": true,
+      "ClassName": "_-IT"
+    },
+    {
+      "Name": "FriendRequestQuestComplete",
+      "Id": "3301",
+      "Hash": "32789387",
+      "IsOutgoing": true,
+      "ClassName": "_-h1j"
+    },
+    {
+      "Name": "RentableSpaceCancelRent",
+      "Id": "3305",
+      "Hash": "14620943",
+      "IsOutgoing": true,
+      "ClassName": "_-95"
+    },
+    {
+      "Name": "GetGuildMemberships",
+      "Id": "3316",
+      "Hash": "30967009",
+      "IsOutgoing": true,
+      "ClassName": "_-x9"
+    },
+    {
+      "Name": "RoomAdEventTabViewed",
+      "Id": "3317",
+      "Hash": "8557861",
+      "IsOutgoing": true,
+      "ClassName": "_-Z1P"
+    },
+    {
+      "Name": "GetMarketplaceItemStats",
+      "Id": "3326",
+      "Hash": "54107956",
+      "IsOutgoing": true,
+      "ClassName": "_-mM"
+    },
+    {
+      "Name": "BuyMarketplaceOffer",
+      "Id": "3331",
+      "Hash": "65870306",
+      "IsOutgoing": true,
+      "ClassName": "_-ON"
+    },
+    {
+      "Name": "UpdateFigureData",
+      "Id": "3334",
+      "Hash": "1032124",
+      "IsOutgoing": true,
+      "ClassName": "_-B1I"
+    },
+    {
+      "Name": "GetSellablePetPalettes",
+      "Id": "3341",
+      "Hash": "49998812",
+      "IsOutgoing": true,
+      "ClassName": "_-01C"
+    },
+    {
+      "Name": "ModBan",
+      "Id": "3353",
+      "Hash": "5769005",
+      "IsOutgoing": true,
+      "ClassName": "_-f1n"
+    },
+    {
+      "Name": "UnbanUserFromRoom",
+      "Id": "3354",
+      "Hash": "48254661",
+      "IsOutgoing": true,
+      "ClassName": "_-Y1H"
+    },
+    {
+      "Name": "PurchaseFromCatalog",
+      "Id": "3356",
+      "Hash": "39571581",
+      "IsOutgoing": true,
+      "ClassName": "_-21D"
+    },
+    {
+      "Name": "GetCommunityGoalHallOfFame",
+      "Id": "3358",
+      "Hash": "24725298",
+      "IsOutgoing": true,
+      "ClassName": "_-n1H"
+    },
+    {
+      "Name": "MakeOffer",
+      "Id": "3372",
+      "Hash": "34180703",
+      "IsOutgoing": true,
+      "ClassName": "_-W5"
+    },
+    {
+      "Name": "AcceptQuest",
+      "Id": "3373",
+      "Hash": "6158855",
+      "IsOutgoing": true,
+      "ClassName": "_-F16"
+    },
+    {
+      "Name": "GetFriendsWeeklyCompetitiveLeaderboard",
+      "Id": "3380",
+      "Hash": "34728767",
+      "IsOutgoing": true,
+      "ClassName": "GetFriendsWeeklyCompetitiveLeaderboardComposer"
+    },
+    {
+      "Name": "RemoveJukeboxDisk",
+      "Id": "3387",
+      "Hash": "37299352",
+      "IsOutgoing": true,
+      "ClassName": "_-u0"
+    },
+    {
+      "Name": "PickupObject",
+      "Id": "3392",
+      "Hash": "43445707",
+      "IsOutgoing": true,
+      "ClassName": "_-o1u"
+    },
+    {
+      "Name": "AddJukeboxDisk",
+      "Id": "3398",
+      "Hash": "24692740",
+      "IsOutgoing": true,
+      "ClassName": "_-O1y"
+    },
+    {
+      "Name": "PlacePostIt",
+      "Id": "3401",
+      "Hash": "5607390",
+      "IsOutgoing": true,
+      "ClassName": "_-hY"
+    },
+    {
+      "Name": "PassCarryItemToPet",
+      "Id": "3416",
+      "Hash": "19651376",
+      "IsOutgoing": true,
+      "ClassName": "_-G1a"
+    },
+    {
+      "Name": "PollAnswer",
+      "Id": "3424",
+      "Hash": "24981566",
+      "IsOutgoing": true,
+      "ClassName": "_-P1a"
+    },
+    {
+      "Name": "GetBadgePointLimits",
+      "Id": "3437",
+      "Hash": "2672115",
+      "IsOutgoing": true,
+      "ClassName": "_-tu"
+    },
+    {
+      "Name": "GetBadges",
+      "Id": "3438",
+      "Hash": "60828848",
+      "IsOutgoing": true,
+      "ClassName": "_-us"
+    },
+    {
+      "Name": "OpenFlatConnection",
+      "Id": "345",
+      "Hash": "48678752",
+      "IsOutgoing": true,
+      "ClassName": "_-G18"
+    },
+    {
+      "Name": "OpenCampaignCalendarDoorAsStaff",
+      "Id": "3459",
+      "Hash": "1815156",
+      "IsOutgoing": true,
+      "ClassName": "_-VA"
+    },
+    {
+      "Name": "ConfirmDeclineTrading",
+      "Id": "3468",
+      "Hash": "54890288",
+      "IsOutgoing": true,
+      "ClassName": "_-614"
+    },
+    {
+      "Name": "PresentOpen",
+      "Id": "3502",
+      "Hash": "58400626",
+      "IsOutgoing": true,
+      "ClassName": "_-xT"
+    },
+    {
+      "Name": "GetItemData",
+      "Id": "3508",
+      "Hash": "28141317",
+      "IsOutgoing": true,
+      "ClassName": "_-FS"
+    },
+    {
+      "Name": "RemoveFriend",
+      "Id": "3520",
+      "Hash": "30316242",
+      "IsOutgoing": true,
+      "ClassName": "_-e1t"
+    },
+    {
+      "Name": "ForwardToSomeRoom",
+      "Id": "353",
+      "Hash": "15499871",
+      "IsOutgoing": true,
+      "ClassName": "_-y1F"
+    },
+    {
+      "Name": "MoveAvatar",
+      "Id": "3534",
+      "Hash": "29441404",
+      "IsOutgoing": true,
+      "ClassName": "_-QK"
+    },
+    {
+      "Name": "ForwardToASubmittableRoom",
+      "Id": "3538",
+      "Hash": "53180767",
+      "IsOutgoing": true,
+      "ClassName": "_-k1b"
+    },
+    {
+      "Name": "ChatReviewSessionCreate",
+      "Id": "3546",
+      "Hash": "56034750",
+      "IsOutgoing": true,
+      "ClassName": "_-A1Q"
+    },
+    {
+      "Name": "GetEmailStatus",
+      "Id": "3558",
+      "Hash": "35307962",
+      "IsOutgoing": true,
+      "ClassName": "_-NY"
+    },
+    {
+      "Name": "GetSoundMachinePlayList",
+      "Id": "356",
+      "Hash": "44853923",
+      "IsOutgoing": true,
+      "ClassName": "_-a1I"
+    },
+    {
+      "Name": "GuideSessionCreate",
+      "Id": "3568",
+      "Hash": "53020390",
+      "IsOutgoing": true,
+      "ClassName": "_-F1V"
+    },
+    {
+      "Name": "CustomizeAvatarWithFurni",
+      "Id": "3573",
+      "Hash": "9847715",
+      "IsOutgoing": true,
+      "ClassName": "_-P1m"
+    },
+    {
+      "Name": "PlaceBot",
+      "Id": "3574",
+      "Hash": "4085744",
+      "IsOutgoing": true,
+      "ClassName": "_-W1C"
+    },
+    {
+      "Name": "PlaceObject",
+      "Id": "3579",
+      "Hash": "43036322",
+      "IsOutgoing": true,
+      "ClassName": "_-22c"
+    },
+    {
+      "Name": "GetNextTargetedOffer",
+      "Id": "3588",
+      "Hash": "54197854",
+      "IsOutgoing": true,
+      "ClassName": "_-o1h"
+    },
+    {
+      "Name": "SendRoomInvite",
+      "Id": "3595",
+      "Hash": "4248175",
+      "IsOutgoing": true,
+      "ClassName": "_-A18"
+    },
+    {
+      "Name": "RoomAdSearch",
+      "Id": "3620",
+      "Hash": "23410681",
+      "IsOutgoing": true,
+      "ClassName": "_-j1q"
+    },
+    {
+      "Name": "RemoveAdminRightsFromMember",
+      "Id": "3625",
+      "Hash": "33607346",
+      "IsOutgoing": true,
+      "ClassName": "_-5j"
+    },
+    {
+      "Name": "InterstitialShown",
+      "Id": "3636",
+      "Hash": "14976165",
+      "IsOutgoing": true,
+      "ClassName": "_-Z1e"
+    },
+    {
+      "Name": "ShopTargetedOfferViewed",
+      "Id": "3646",
+      "Hash": "6756797",
+      "IsOutgoing": true,
+      "ClassName": "_-Y1k"
+    },
+    {
+      "Name": "DeleteFavouriteRoom",
+      "Id": "3652",
+      "Hash": "58129833",
+      "IsOutgoing": true,
+      "ClassName": "_-22d"
+    },
+    {
+      "Name": "PopularRoomsSearch",
+      "Id": "3669",
+      "Hash": "8268111",
+      "IsOutgoing": true,
+      "ClassName": "_-S1E"
+    },
+    {
+      "Name": "SelectFavouriteHabboGroup",
+      "Id": "3677",
+      "Hash": "49011679",
+      "IsOutgoing": true,
+      "ClassName": "_-Rh"
+    },
+    {
+      "Name": "GetGuideReportingStatus",
+      "Id": "368",
+      "Hash": "11174282",
+      "IsOutgoing": true,
+      "ClassName": "_-C6"
+    },
+    {
+      "Name": "SendMsg",
+      "Id": "3684",
+      "Hash": "63171767",
+      "IsOutgoing": true,
+      "ClassName": "_-il"
+    },
+    {
+      "Name": "Game2MakeSnowball",
+      "Id": "3689",
+      "Hash": "25108238",
+      "IsOutgoing": true,
+      "ClassName": "Game2MakeSnowballMessageComposer"
+    },
+    {
+      "Name": "GetIsUserPartOfCompetition",
+      "Id": "3692",
+      "Hash": "54506685",
+      "IsOutgoing": true,
+      "ClassName": "_-1h"
+    },
+    {
+      "Name": "SelectClubGift",
+      "Id": "3706",
+      "Hash": "7689721",
+      "IsOutgoing": true,
+      "ClassName": "_-Z1X"
+    },
+    {
+      "Name": "RemoveItem",
+      "Id": "3725",
+      "Hash": "6128980",
+      "IsOutgoing": true,
+      "ClassName": "_-p11"
+    },
+    {
+      "Name": "ModMute",
+      "Id": "3728",
+      "Hash": "21913016",
+      "IsOutgoing": true,
+      "ClassName": "_-xh"
+    },
+    {
+      "Name": "MyRoomHistorySearch",
+      "Id": "3733",
+      "Hash": "38524289",
+      "IsOutgoing": true,
+      "ClassName": "_-Yy"
+    },
+    {
+      "Name": "GetUserFlatCats",
+      "Id": "3745",
+      "Hash": "61529894",
+      "IsOutgoing": true,
+      "ClassName": "_-4b"
+    },
+    {
+      "Name": "BuildersClubPlaceWallItem",
+      "Id": "3752",
+      "Hash": "50198807",
+      "IsOutgoing": true,
+      "ClassName": "_-A6"
+    },
+    {
+      "Name": "RedeemMarketplaceOfferCredits",
+      "Id": "3773",
+      "Hash": "21746729",
+      "IsOutgoing": true,
+      "ClassName": "_-eV"
+    },
+    {
+      "Name": "GuideSessionMessage",
+      "Id": "3781",
+      "Hash": "8662426",
+      "IsOutgoing": true,
+      "ClassName": "_-ye"
+    },
+    {
+      "Name": "UpdateGuildBadge",
+      "Id": "3787",
+      "Hash": "16898135",
+      "IsOutgoing": true,
+      "ClassName": "_-aw"
+    },
+    {
+      "Name": "SetYoutubeDisplayPlaylist",
+      "Id": "3789",
+      "Hash": "47044325",
+      "IsOutgoing": true,
+      "ClassName": "_-M1Z"
+    },
+    {
+      "Name": "VersionCheck",
+      "Id": "3792",
+      "Hash": "26690871",
+      "IsOutgoing": true,
+      "ClassName": "_-uj"
+    },
+    {
+      "Name": "GetRentOrBuyoutOffer",
+      "Id": "381",
+      "Hash": "39717481",
+      "IsOutgoing": true,
+      "ClassName": "_-cV"
+    },
+    {
+      "Name": "UpdateFloorProperties",
+      "Id": "3812",
+      "Hash": "20344593",
+      "IsOutgoing": true,
+      "ClassName": "_-n14"
+    },
+    {
+      "Name": "JoinHabboGroup",
+      "Id": "3818",
+      "Hash": "15537542",
+      "IsOutgoing": true,
+      "ClassName": "_-j0"
+    },
+    {
+      "Name": "LookTo",
+      "Id": "3845",
+      "Hash": "40093194",
+      "IsOutgoing": true,
+      "ClassName": "_-224"
+    },
+    {
+      "Name": "Game2ExitGame",
+      "Id": "3849",
+      "Hash": "42302050",
+      "IsOutgoing": true,
+      "ClassName": "Game2ExitGameMessageComposer"
+    },
+    {
+      "Name": "GetUserSongDisks",
+      "Id": "3866",
+      "Hash": "54674917",
+      "IsOutgoing": true,
+      "ClassName": "_-kv"
+    },
+    {
+      "Name": "GetPetInventory",
+      "Id": "3879",
+      "Hash": "30215023",
+      "IsOutgoing": true,
+      "ClassName": "_-6Y"
+    },
+    {
+      "Name": "DiceOff",
+      "Id": "3887",
+      "Hash": "17472816",
+      "IsOutgoing": true,
+      "ClassName": "_-X1l"
+    },
+    {
+      "Name": "SetNewNavigatorWindowPreferences",
+      "Id": "3894",
+      "Hash": "58206383",
+      "IsOutgoing": true,
+      "ClassName": "_-h4"
+    },
+    {
+      "Name": "Game2GetWeeklyLeaderboard",
+      "Id": "3899",
+      "Hash": "11809597",
+      "IsOutgoing": true,
+      "ClassName": "Game2GetWeeklyLeaderboardComposer"
+    },
+    {
+      "Name": "IncomeRewardClaim",
+      "Id": "39",
+      "Hash": "63248778",
+      "IsOutgoing": true,
+      "ClassName": "_-jc"
+    },
+    {
+      "Name": "GetWeeklyGameReward",
+      "Id": "3902",
+      "Hash": "43066942",
+      "IsOutgoing": true,
+      "ClassName": "GetWeeklyGameRewardComposer"
+    },
+    {
+      "Name": "GuideSessionOnDutyUpdate",
+      "Id": "3910",
+      "Hash": "11404133",
+      "IsOutgoing": true,
+      "ClassName": "_-5Z"
+    },
+    {
+      "Name": "ChatReviewGuideVote",
+      "Id": "3917",
+      "Hash": "67085535",
+      "IsOutgoing": true,
+      "ClassName": "_-yr"
+    },
+    {
+      "Name": "Game2GetTotalLeaderboard",
+      "Id": "3927",
+      "Hash": "17398306",
+      "IsOutgoing": true,
+      "ClassName": "Game2GetTotalLeaderboardComposer"
+    },
+    {
+      "Name": "RemoveSaddleFromPet",
+      "Id": "3942",
+      "Hash": "30046694",
+      "IsOutgoing": true,
+      "ClassName": "_-DV"
+    },
+    {
+      "Name": "ConvertGlobalRoomId",
+      "Id": "3944",
+      "Hash": "28278595",
+      "IsOutgoing": true,
+      "ClassName": "_-31a"
+    },
+    {
+      "Name": "ChangeUserName",
+      "Id": "396",
+      "Hash": "25116876",
+      "IsOutgoing": true,
+      "ClassName": "_-X5"
+    },
+    {
+      "Name": "ModAlert",
+      "Id": "3971",
+      "Hash": "2078992",
+      "IsOutgoing": true,
+      "ClassName": "_-A8"
+    },
+    {
+      "Name": "CompleteDiffieHandshake",
+      "Id": "3977",
+      "Hash": "61374531",
+      "IsOutgoing": true,
+      "ClassName": "_-Vk"
+    },
+    {
+      "Name": "GetIgnoredUsers",
+      "Id": "3993",
+      "Hash": "61469371",
+      "IsOutgoing": true,
+      "ClassName": "_-lO"
+    },
+    {
+      "Name": "ClientHello",
+      "Id": "4000",
+      "Hash": "39501348",
+      "IsOutgoing": true,
+      "ClassName": "_-RY"
+    },
+    {
+      "Name": "ResetUnseenItems",
+      "Id": "411",
+      "Hash": "45797138",
+      "IsOutgoing": true,
+      "ClassName": "_-Ww"
+    },
+    {
+      "Name": "IncomeRewardStatus",
+      "Id": "417",
+      "Hash": "2854726",
+      "IsOutgoing": true,
+      "ClassName": "_-3R"
+    },
+    {
+      "Name": "VisitUser",
+      "Id": "425",
+      "Hash": "38540333",
+      "IsOutgoing": true,
+      "ClassName": "_-NU"
+    },
+    {
+      "Name": "GiveStarGemToUser",
+      "Id": "460",
+      "Hash": "63390070",
+      "IsOutgoing": true,
+      "ClassName": "_-wG"
+    },
+    {
+      "Name": "DeleteRoom",
+      "Id": "471",
+      "Hash": "56174818",
+      "IsOutgoing": true,
+      "ClassName": "_-y17"
+    },
+    {
+      "Name": "GetModeratorUserInfo",
+      "Id": "485",
+      "Hash": "22799085",
+      "IsOutgoing": true,
+      "ClassName": "_-yf"
+    },
+    {
+      "Name": "RemovePetFromFlat",
+      "Id": "509",
+      "Hash": "59182880",
+      "IsOutgoing": true,
+      "ClassName": "_-Rl"
+    },
+    {
+      "Name": "PhotoCompetition",
+      "Id": "513",
+      "Hash": "21940722",
+      "IsOutgoing": true,
+      "ClassName": "_-J1M"
+    },
+    {
+      "Name": "PickIssues",
+      "Id": "530",
+      "Hash": "10896009",
+      "IsOutgoing": true,
+      "ClassName": "_-y1V"
+    },
+    {
+      "Name": "MyRoomRightsSearch",
+      "Id": "540",
+      "Hash": "61304253",
+      "IsOutgoing": true,
+      "ClassName": "_-Z5"
+    },
+    {
+      "Name": "GetPetInfo",
+      "Id": "555",
+      "Hash": "34322009",
+      "IsOutgoing": true,
+      "ClassName": "_-Na"
+    },
+    {
+      "Name": "CallForHelpFromPhoto",
+      "Id": "57",
+      "Hash": "8713795",
+      "IsOutgoing": true,
+      "ClassName": "_-Q1m"
+    },
+    {
+      "Name": "SSOTicket",
+      "Id": "582",
+      "Hash": "32075938",
+      "IsOutgoing": true,
+      "ClassName": "_-Cv"
+    },
+    {
+      "Name": "RoomNetworkOpenConnection",
+      "Id": "589",
+      "Hash": "5020285",
+      "IsOutgoing": true,
+      "ClassName": "_-m1K"
+    },
+    {
+      "Name": "SaveRoomSettings",
+      "Id": "601",
+      "Hash": "23371976",
+      "IsOutgoing": true,
+      "ClassName": "_-y1a"
+    },
+    {
+      "Name": "TogglePetRidingPermission",
+      "Id": "603",
+      "Hash": "14030717",
+      "IsOutgoing": true,
+      "ClassName": "_-ZJ"
+    },
+    {
+      "Name": "Game2GetWeeklyGroupLeaderboard",
+      "Id": "618",
+      "Hash": "720995",
+      "IsOutgoing": true,
+      "ClassName": "Game2GetWeeklyGroupLeaderboardComposer"
+    },
+    {
+      "Name": "GetRoomVisits",
+      "Id": "624",
+      "Hash": "51134510",
+      "IsOutgoing": true,
+      "ClassName": "_-H1f"
+    },
+    {
+      "Name": "UpdateGuildSettings",
+      "Id": "63",
+      "Hash": "50223649",
+      "IsOutgoing": true,
+      "ClassName": "_-WH"
+    },
+    {
+      "Name": "MuteAllInRoom",
+      "Id": "646",
+      "Hash": "43678569",
+      "IsOutgoing": true,
+      "ClassName": "_-GH"
+    },
+    {
+      "Name": "UpdateTrigger",
+      "Id": "659",
+      "Hash": "8135907",
+      "IsOutgoing": true,
+      "ClassName": "_-l1x"
+    },
+    {
+      "Name": "Game2StartSnowWar",
+      "Id": "661",
+      "Hash": "59362130",
+      "IsOutgoing": true,
+      "ClassName": "_-7Y"
+    },
+    {
+      "Name": "ModerateRoom",
+      "Id": "668",
+      "Hash": "48460267",
+      "IsOutgoing": true,
+      "ClassName": "_-IG"
+    },
+    {
+      "Name": "ApproveMembershipRequest",
+      "Id": "673",
+      "Hash": "5166299",
+      "IsOutgoing": true,
+      "ClassName": "_-h1B"
+    },
+    {
+      "Name": "CreateFlat",
+      "Id": "674",
+      "Hash": "3095993",
+      "IsOutgoing": true,
+      "ClassName": "_-AE"
+    },
+    {
+      "Name": "GetForumsList",
+      "Id": "675",
+      "Hash": "38679683",
+      "IsOutgoing": true,
+      "ClassName": "_-r1"
+    },
+    {
+      "Name": "SetSoundSettings",
+      "Id": "68",
+      "Hash": "4400168",
+      "IsOutgoing": true,
+      "ClassName": "_-x6"
+    },
+    {
+      "Name": "BuildersClubQueryFurniCount",
+      "Id": "683",
+      "Hash": "52493967",
+      "IsOutgoing": true,
+      "ClassName": "_-8j"
+    },
+    {
+      "Name": "ChangeMotto",
+      "Id": "685",
+      "Hash": "53829147",
+      "IsOutgoing": true,
+      "ClassName": "_-91v"
+    },
+    {
+      "Name": "GetHabboGroupDetails",
+      "Id": "687",
+      "Hash": "47063428",
+      "IsOutgoing": true,
+      "ClassName": "_-O19"
+    },
+    {
+      "Name": "GuideSessionGuideDecides",
+      "Id": "689",
+      "Hash": "50838910",
+      "IsOutgoing": true,
+      "ClassName": "_-Ky"
+    },
+    {
+      "Name": "AssignRights",
+      "Id": "692",
+      "Hash": "5541955",
+      "IsOutgoing": true,
+      "ClassName": "_-lu"
+    },
+    {
+      "Name": "GetMessages",
+      "Id": "704",
+      "Hash": "32242465",
+      "IsOutgoing": true,
+      "ClassName": "_-Zy"
+    },
+    {
+      "Name": "MyFrequentRoomHistorySearch",
+      "Id": "71",
+      "Hash": "53866394",
+      "IsOutgoing": true,
+      "ClassName": "_-r1V"
+    },
+    {
+      "Name": "CompetitionRoomsSearch",
+      "Id": "713",
+      "Hash": "20917673",
+      "IsOutgoing": true,
+      "ClassName": "_-6h"
+    },
+    {
+      "Name": "RemoveRights",
+      "Id": "716",
+      "Hash": "54783372",
+      "IsOutgoing": true,
+      "ClassName": "_-UN"
+    },
+    {
+      "Name": "GetRoomSettings",
+      "Id": "717",
+      "Hash": "8340425",
+      "IsOutgoing": true,
+      "ClassName": "_-11c"
+    },
+    {
+      "Name": "UpdateForumReadMarker",
+      "Id": "723",
+      "Hash": "46809697",
+      "IsOutgoing": true,
+      "ClassName": "_-hd"
+    },
+    {
+      "Name": "ChangeQueue",
+      "Id": "735",
+      "Hash": "20745743",
+      "IsOutgoing": true,
+      "ClassName": "_-jy"
+    },
+    {
+      "Name": "SpinWheelOfFortune",
+      "Id": "748",
+      "Hash": "14200498",
+      "IsOutgoing": true,
+      "ClassName": "_-j1A"
+    },
+    {
+      "Name": "RoomsWhereMyFriendsAreSearch",
+      "Id": "752",
+      "Hash": "1237054",
+      "IsOutgoing": true,
+      "ClassName": "_-HT"
+    },
+    {
+      "Name": "GetBotInventory",
+      "Id": "755",
+      "Hash": "27416314",
+      "IsOutgoing": true,
+      "ClassName": "_-Jp"
+    },
+    {
+      "Name": "Game2GetFriendsLeaderboard",
+      "Id": "759",
+      "Hash": "15114764",
+      "IsOutgoing": true,
+      "ClassName": "Game2GetFriendsLeaderboardComposer"
+    },
+    {
+      "Name": "GetMemberGuildItemCount",
+      "Id": "76",
+      "Hash": "10655236",
+      "IsOutgoing": true,
+      "ClassName": "_-Oe"
+    },
+    {
+      "Name": "SetMannequinName",
+      "Id": "769",
+      "Hash": "15044627",
+      "IsOutgoing": true,
+      "ClassName": "_-a1L"
+    },
+    {
+      "Name": "UpdateRoomFilter",
+      "Id": "778",
+      "Hash": "24211521",
+      "IsOutgoing": true,
+      "ClassName": "_-Q1Q"
+    },
+    {
+      "Name": "PurchaseTargetedOffer",
+      "Id": "792",
+      "Hash": "38709481",
+      "IsOutgoing": true,
+      "ClassName": "_-U1X"
+    },
+    {
+      "Name": "CallForHelpFromIM",
+      "Id": "796",
+      "Hash": "25294426",
+      "IsOutgoing": true,
+      "ClassName": "_-z1v"
+    },
+    {
+      "Name": "GetCfhChatlog",
+      "Id": "802",
+      "Hash": "40893240",
+      "IsOutgoing": true,
+      "ClassName": "_-rb"
+    },
+    {
+      "Name": "ModKick",
+      "Id": "808",
+      "Hash": "22098140",
+      "IsOutgoing": true,
+      "ClassName": "_-QI"
+    },
+    {
+      "Name": "GetJukeboxPlayList",
+      "Id": "815",
+      "Hash": "40462633",
+      "IsOutgoing": true,
+      "ClassName": "_-fo"
+    },
+    {
+      "Name": "DropCarryItem",
+      "Id": "825",
+      "Hash": "59223347",
+      "IsOutgoing": true,
+      "ClassName": "_-i1F"
+    },
+    {
+      "Name": "GuideSessionReport",
+      "Id": "837",
+      "Hash": "31674992",
+      "IsOutgoing": true,
+      "ClassName": "_-G1m"
+    },
+    {
+      "Name": "CloseIssues",
+      "Id": "841",
+      "Hash": "19967814",
+      "IsOutgoing": true,
+      "ClassName": "_-L1f"
+    },
+    {
+      "Name": "RequestABadge",
+      "Id": "842",
+      "Hash": "53406450",
+      "IsOutgoing": true,
+      "ClassName": "_-02t"
+    },
+    {
+      "Name": "TogglePetBreedingPermission",
+      "Id": "845",
+      "Hash": "52399374",
+      "IsOutgoing": true,
+      "ClassName": "_-Kq"
+    },
+    {
+      "Name": "Game2ThrowSnowballAtPosition",
+      "Id": "86",
+      "Hash": "55636561",
+      "IsOutgoing": true,
+      "ClassName": "Game2ThrowSnowballAtPositionMessageComposer"
+    },
+    {
+      "Name": "MuteUser",
+      "Id": "863",
+      "Hash": "18700393",
+      "IsOutgoing": true,
+      "ClassName": "_-LD"
+    },
+    {
+      "Name": "GetCatalogPageExpiration",
+      "Id": "868",
+      "Hash": "13080057",
+      "IsOutgoing": true,
+      "ClassName": "_-P1u"
+    },
+    {
+      "Name": "NavigatorDeleteSavedSearch",
+      "Id": "87",
+      "Hash": "46496694",
+      "IsOutgoing": true,
+      "ClassName": "_-EL"
+    },
+    {
+      "Name": "HabboSearch",
+      "Id": "880",
+      "Hash": "36246974",
+      "IsOutgoing": true,
+      "ClassName": "_-4n"
+    },
+    {
+      "Name": "RequestFurniInventory",
+      "Id": "890",
+      "Hash": "19162058",
+      "IsOutgoing": true,
+      "ClassName": "_-DU"
+    },
+    {
+      "Name": "NavigatorAddSavedSearch",
+      "Id": "895",
+      "Hash": "66578044",
+      "IsOutgoing": true,
+      "ClassName": "_-b6"
+    },
+    {
+      "Name": "OpenTrading",
+      "Id": "909",
+      "Hash": "34829302",
+      "IsOutgoing": true,
+      "ClassName": "_-BE"
+    },
+    {
+      "Name": "GetBotCommandConfigurationData",
+      "Id": "920",
+      "Hash": "9369539",
+      "IsOutgoing": true,
+      "ClassName": "_-R1m"
+    },
+    {
+      "Name": "GetFlatControllers",
+      "Id": "924",
+      "Hash": "63253060",
+      "IsOutgoing": true,
+      "ClassName": "_-8u"
+    },
+    {
+      "Name": "GetCreditsInfo",
+      "Id": "930",
+      "Hash": "42915540",
+      "IsOutgoing": true,
+      "ClassName": "_-41t"
+    },
+    {
+      "Name": "ToggleStaffPick",
+      "Id": "931",
+      "Hash": "24049039",
+      "IsOutgoing": true,
+      "ClassName": "_-37"
+    },
+    {
+      "Name": "GuideSessionGetRequesterRoom",
+      "Id": "937",
+      "Hash": "14221611",
+      "IsOutgoing": true,
+      "ClassName": "_-QW"
+    },
+    {
+      "Name": "ChangeEmail",
+      "Id": "938",
+      "Hash": "19262089",
+      "IsOutgoing": true,
+      "ClassName": "_-11e"
+    },
+    {
+      "Name": "Craft",
+      "Id": "945",
+      "Hash": "36518691",
+      "IsOutgoing": true,
+      "ClassName": "_-zD"
+    },
+    {
+      "Name": "Sign",
+      "Id": "955",
+      "Hash": "38893755",
+      "IsOutgoing": true,
+      "ClassName": "_-e9"
+    },
+    {
+      "Name": "TryPhoneNumber",
+      "Id": "97",
+      "Hash": "57980315",
+      "IsOutgoing": true,
+      "ClassName": "_-S1B"
+    },
+    {
+      "Name": "KickMember",
+      "Id": "970",
+      "Hash": "12841014",
+      "IsOutgoing": true,
+      "ClassName": "_-Ay"
+    },
+    {
+      "Name": "DeclineFriend",
+      "Id": "98",
+      "Hash": "5109846",
+      "IsOutgoing": true,
+      "ClassName": "_-sd"
+    },
+    {
+      "Name": "PostQuizAnswers",
+      "Id": "981",
+      "Hash": "58602024",
+      "IsOutgoing": true,
+      "ClassName": "_-a1J"
+    },
+    {
+      "Name": "SetActivatedBadges",
+      "Id": "983",
+      "Hash": "40372317",
+      "IsOutgoing": true,
+      "ClassName": "_-Tz"
+    },
+    {
+      "Name": "GuideSessionFeedback",
+      "Id": "990",
+      "Hash": "42526340",
+      "IsOutgoing": true,
+      "ClassName": "_-E1c"
+    },
+    {
+      "Name": "GetCraftableProducts",
+      "Id": "998",
+      "Hash": "20735233",
+      "IsOutgoing": true,
+      "ClassName": "_-G1r"
+    }
+  ],
+  "Incoming": [
+    {
+      "Name": "RoomVisualizationSettings",
+      "Id": "1",
+      "Hash": "4368081",
+      "IsOutgoing": false,
+      "ClassName": "_-oI"
+    },
+    {
+      "Name": "Moderator",
+      "Id": "100",
+      "Hash": "52579650",
+      "IsOutgoing": false,
+      "ClassName": "_-1z"
+    },
+    {
+      "Name": "GuestRoomSearchResult",
+      "Id": "1004",
+      "Hash": "47336128",
+      "IsOutgoing": false,
+      "ClassName": "_-og"
+    },
+    {
+      "Name": "Game2GameChatFromPlayer",
+      "Id": "1008",
+      "Hash": "13908493",
+      "IsOutgoing": false,
+      "ClassName": "_-81"
+    },
+    {
+      "Name": "OneWayDoorStatus",
+      "Id": "1009",
+      "Hash": "28189627",
+      "IsOutgoing": false,
+      "ClassName": "_-ZH"
+    },
+    {
+      "Name": "GetGuestRoomResult",
+      "Id": "1022",
+      "Hash": "39459394",
+      "IsOutgoing": false,
+      "ClassName": "_-wr"
+    },
+    {
+      "Name": "CommunityGoalEarnedPrizes",
+      "Id": "1033",
+      "Hash": "17173591",
+      "IsOutgoing": false,
+      "ClassName": "_-b1N"
+    },
+    {
+      "Name": "CraftingResult",
+      "Id": "1050",
+      "Hash": "47192740",
+      "IsOutgoing": false,
+      "ClassName": "_-T1F"
+    },
+    {
+      "Name": "NavigatorCollapsedCategories",
+      "Id": "1061",
+      "Hash": "40799911",
+      "IsOutgoing": false,
+      "ClassName": "_-31k"
+    },
+    {
+      "Name": "EpicPopup",
+      "Id": "1075",
+      "Hash": "65737292",
+      "IsOutgoing": false,
+      "ClassName": "_-3f"
+    },
+    {
+      "Name": "UserClassification",
+      "Id": "1080",
+      "Hash": "62601592",
+      "IsOutgoing": false,
+      "ClassName": "_-fj"
+    },
+    {
+      "Name": "ProductOffer",
+      "Id": "1084",
+      "Hash": "8419032",
+      "IsOutgoing": false,
+      "ClassName": "_-mP"
+    },
+    {
+      "Name": "CompetitionRoomsData",
+      "Id": "1101",
+      "Hash": "24309136",
+      "IsOutgoing": false,
+      "ClassName": "_-Qh"
+    },
+    {
+      "Name": "WiredRewardResult",
+      "Id": "1104",
+      "Hash": "20852350",
+      "IsOutgoing": false,
+      "ClassName": "_-VE"
+    },
+    {
+      "Name": "Doorbell",
+      "Id": "1109",
+      "Hash": "43425297",
+      "IsOutgoing": false,
+      "ClassName": "_-b1d"
+    },
+    {
+      "Name": "NavigatorLiftedRooms",
+      "Id": "1122",
+      "Hash": "32217513",
+      "IsOutgoing": false,
+      "ClassName": "_-A1L"
+    },
+    {
+      "Name": "ChatReviewSessionDetached",
+      "Id": "1130",
+      "Hash": "3499754",
+      "IsOutgoing": false,
+      "ClassName": "_-k1f"
+    },
+    {
+      "Name": "ModeratorUserInfo",
+      "Id": "1137",
+      "Hash": "54897010",
+      "IsOutgoing": false,
+      "ClassName": "_-Z14"
+    },
+    {
+      "Name": "Game2GameLongData",
+      "Id": "1150",
+      "Hash": "24197721",
+      "IsOutgoing": false,
+      "ClassName": "_-U1Z"
+    },
+    {
+      "Name": "AvatarEffectExpired",
+      "Id": "1155",
+      "Hash": "31093287",
+      "IsOutgoing": false,
+      "ClassName": "_-L3"
+    },
+    {
+      "Name": "OfferRewardDelivered",
+      "Id": "1160",
+      "Hash": "50145638",
+      "IsOutgoing": false,
+      "ClassName": "_-yR"
+    },
+    {
+      "Name": "PetReceived",
+      "Id": "1167",
+      "Hash": "5894231",
+      "IsOutgoing": false,
+      "ClassName": "_-Ix"
+    },
+    {
+      "Name": "WiredFurniTrigger",
+      "Id": "1170",
+      "Hash": "34786562",
+      "IsOutgoing": false,
+      "ClassName": "_-c1N"
+    },
+    {
+      "Name": "FriendListUpdate",
+      "Id": "1171",
+      "Hash": "9389685",
+      "IsOutgoing": false,
+      "ClassName": "_-r1p"
+    },
+    {
+      "Name": "NotificationDialog",
+      "Id": "1179",
+      "Hash": "65506178",
+      "IsOutgoing": false,
+      "ClassName": "_-FL"
+    },
+    {
+      "Name": "CloseConnection",
+      "Id": "1180",
+      "Hash": "117163",
+      "IsOutgoing": false,
+      "ClassName": "_-1e"
+    },
+    {
+      "Name": "Game2GameStatus",
+      "Id": "1185",
+      "Hash": "59481773",
+      "IsOutgoing": false,
+      "ClassName": "_-G1t"
+    },
+    {
+      "Name": "GuideSessionAttached",
+      "Id": "1199",
+      "Hash": "2112619",
+      "IsOutgoing": false,
+      "ClassName": "_-C1t"
+    },
+    {
+      "Name": "FriendRequests",
+      "Id": "122",
+      "Hash": "7691275",
+      "IsOutgoing": false,
+      "ClassName": "_-61J"
+    },
+    {
+      "Name": "GuildMembers",
+      "Id": "1220",
+      "Hash": "15817070",
+      "IsOutgoing": false,
+      "ClassName": "_-z1r"
+    },
+    {
+      "Name": "RequestSpamWallPostIt",
+      "Id": "1242",
+      "Hash": "16452903",
+      "IsOutgoing": false,
+      "ClassName": "_-vu"
+    },
+    {
+      "Name": "ConcurrentUsersGoalProgress",
+      "Id": "1244",
+      "Hash": "4825033",
+      "IsOutgoing": false,
+      "ClassName": "_-P1h"
+    },
+    {
+      "Name": "ObjectAdd",
+      "Id": "1264",
+      "Hash": "32361769",
+      "IsOutgoing": false,
+      "ClassName": "_-71P"
+    },
+    {
+      "Name": "CreditVaultStatus",
+      "Id": "1266",
+      "Hash": "66898905",
+      "IsOutgoing": false,
+      "ClassName": "_-uT"
+    },
+    {
+      "Name": "IssuePickFailed",
+      "Id": "1268",
+      "Hash": "11315292",
+      "IsOutgoing": false,
+      "ClassName": "_-71S"
+    },
+    {
+      "Name": "ForumThreads",
+      "Id": "1275",
+      "Hash": "4705914",
+      "IsOutgoing": false,
+      "ClassName": "_-mY"
+    },
+    {
+      "Name": "RoomAdError",
+      "Id": "1284",
+      "Hash": "18492804",
+      "IsOutgoing": false,
+      "ClassName": "_-O5"
+    },
+    {
+      "Name": "SanctionStatus",
+      "Id": "1294",
+      "Hash": "18303590",
+      "IsOutgoing": false,
+      "ClassName": "_-oP"
+    },
+    {
+      "Name": "CommunityGoalProgress",
+      "Id": "1307",
+      "Hash": "41580444",
+      "IsOutgoing": false,
+      "ClassName": "_-sO"
+    },
+    {
+      "Name": "MuteAllInRoom",
+      "Id": "1311",
+      "Hash": "18270305",
+      "IsOutgoing": false,
+      "ClassName": "_-du"
+    },
+    {
+      "Name": "CfhTopicsInit",
+      "Id": "1315",
+      "Hash": "65445301",
+      "IsOutgoing": false,
+      "ClassName": "_-7J"
+    },
+    {
+      "Name": "HandItemReceived",
+      "Id": "1324",
+      "Hash": "50184984",
+      "IsOutgoing": false,
+      "ClassName": "_-Z1V"
+    },
+    {
+      "Name": "UpdateThread",
+      "Id": "1342",
+      "Hash": "36052245",
+      "IsOutgoing": false,
+      "ClassName": "_-h"
+    },
+    {
+      "Name": "MarketplaceCancelOfferResult",
+      "Id": "1350",
+      "Hash": "18710936",
+      "IsOutgoing": false,
+      "ClassName": "_-Q1C"
+    },
+    {
+      "Name": "BotSkillListUpdate",
+      "Id": "1358",
+      "Hash": "12176960",
+      "IsOutgoing": false,
+      "ClassName": "_-e18"
+    },
+    {
+      "Name": "GenericError",
+      "Id": "1371",
+      "Hash": "44407631",
+      "IsOutgoing": false,
+      "ClassName": "_-X1j"
+    },
+    {
+      "Name": "Game2TotalGroupLeaderboard",
+      "Id": "1385",
+      "Hash": "13070512",
+      "IsOutgoing": false,
+      "ClassName": "Game2TotalGroupLeaderboardEvent"
+    },
+    {
+      "Name": "MiniMailUnreadCount",
+      "Id": "1397",
+      "Hash": "5432205",
+      "IsOutgoing": false,
+      "ClassName": "_-Zw"
+    },
+    {
+      "Name": "BonusRareInfo",
+      "Id": "1401",
+      "Hash": "30752875",
+      "IsOutgoing": false,
+      "ClassName": "_-12n"
+    },
+    {
+      "Name": "Game2GameCancelled",
+      "Id": "1404",
+      "Hash": "39530145",
+      "IsOutgoing": false,
+      "ClassName": "Game2GameCancelledMessageEvent"
+    },
+    {
+      "Name": "FriendFurniStartConfirmation",
+      "Id": "1408",
+      "Hash": "20798117",
+      "IsOutgoing": false,
+      "ClassName": "_-x1C"
+    },
+    {
+      "Name": "CfhChatlog",
+      "Id": "1412",
+      "Hash": "9487824",
+      "IsOutgoing": false,
+      "ClassName": "_-Z1x"
+    },
+    {
+      "Name": "ConfirmBreedingResult",
+      "Id": "1428",
+      "Hash": "40026340",
+      "IsOutgoing": false,
+      "ClassName": "_-5n"
+    },
+    {
+      "Name": "FigureSetIdAdded",
+      "Id": "1436",
+      "Hash": "23037620",
+      "IsOutgoing": false,
+      "ClassName": "_-L1A"
+    },
+    {
+      "Name": "UserRights",
+      "Id": "144",
+      "Hash": "53954942",
+      "IsOutgoing": false,
+      "ClassName": "_-pS"
+    },
+    {
+      "Name": "PurchaseError",
+      "Id": "1447",
+      "Hash": "27795493",
+      "IsOutgoing": false,
+      "ClassName": "_-Y11"
+    },
+    {
+      "Name": "PetRespectNotification",
+      "Id": "145",
+      "Hash": "62883878",
+      "IsOutgoing": false,
+      "ClassName": "_-U10"
+    },
+    {
+      "Name": "FriendFurniOtherLockConfirmed",
+      "Id": "1452",
+      "Hash": "61327894",
+      "IsOutgoing": false,
+      "ClassName": "_-02o"
+    },
+    {
+      "Name": "GuideSessionStarted",
+      "Id": "1453",
+      "Hash": "38376892",
+      "IsOutgoing": false,
+      "ClassName": "_-3w"
+    },
+    {
+      "Name": "Game2EnterArena",
+      "Id": "1462",
+      "Hash": "17209562",
+      "IsOutgoing": false,
+      "ClassName": "_-zN"
+    },
+    {
+      "Name": "Game2StopCounter",
+      "Id": "1467",
+      "Hash": "49336210",
+      "IsOutgoing": false,
+      "ClassName": "Game2StopCounterMessageEvent"
+    },
+    {
+      "Name": "PostThread",
+      "Id": "1485",
+      "Hash": "36019552",
+      "IsOutgoing": false,
+      "ClassName": "_-bE"
+    },
+    {
+      "Name": "CatalogPublished",
+      "Id": "1494",
+      "Hash": "14198754",
+      "IsOutgoing": false,
+      "ClassName": "_-T6"
+    },
+    {
+      "Name": "LimitedOfferAppearingNext",
+      "Id": "1509",
+      "Hash": "51545483",
+      "IsOutgoing": false,
+      "ClassName": "_-61U"
+    },
+    {
+      "Name": "BundleDiscountRuleset",
+      "Id": "1519",
+      "Hash": "12605589",
+      "IsOutgoing": false,
+      "ClassName": "_-34"
+    },
+    {
+      "Name": "GuildMemberFurniCountInHQ",
+      "Id": "1522",
+      "Hash": "6011995",
+      "IsOutgoing": false,
+      "ClassName": "_-B1Z"
+    },
+    {
+      "Name": "UserObject",
+      "Id": "1523",
+      "Hash": "18580737",
+      "IsOutgoing": false,
+      "ClassName": "_-E12"
+    },
+    {
+      "Name": "CallForHelpResult",
+      "Id": "1527",
+      "Hash": "50611656",
+      "IsOutgoing": false,
+      "ClassName": "_-M1C"
+    },
+    {
+      "Name": "RestoreClient",
+      "Id": "1528",
+      "Hash": "58067579",
+      "IsOutgoing": false,
+      "ClassName": "_-PR"
+    },
+    {
+      "Name": "GuideReportingStatus",
+      "Id": "1529",
+      "Hash": "56516768",
+      "IsOutgoing": false,
+      "ClassName": "_-fW"
+    },
+    {
+      "Name": "SnowWarGameTokens",
+      "Id": "1531",
+      "Hash": "8674443",
+      "IsOutgoing": false,
+      "ClassName": "SnowWarGameTokensMessageEvent"
+    },
+    {
+      "Name": "CampaignCalendarData",
+      "Id": "1548",
+      "Hash": "36446461",
+      "IsOutgoing": false,
+      "ClassName": "_-HC"
+    },
+    {
+      "Name": "BuildersClubFurniCount",
+      "Id": "1560",
+      "Hash": "60429346",
+      "IsOutgoing": false,
+      "ClassName": "_-j1d"
+    },
+    {
+      "Name": "GuildMemberMgmtFailed",
+      "Id": "1566",
+      "Hash": "28619382",
+      "IsOutgoing": false,
+      "ClassName": "_-91q"
+    },
+    {
+      "Name": "CatalogPageExpiration",
+      "Id": "1568",
+      "Hash": "37882063",
+      "IsOutgoing": false,
+      "ClassName": "_-B1q"
+    },
+    {
+      "Name": "GuideTicketCreationResult",
+      "Id": "1569",
+      "Hash": "26602077",
+      "IsOutgoing": false,
+      "ClassName": "_-a1S"
+    },
+    {
+      "Name": "GuildCreationInfo",
+      "Id": "1570",
+      "Hash": "25911262",
+      "IsOutgoing": false,
+      "ClassName": "_-Eb"
+    },
+    {
+      "Name": "UserFlatCats",
+      "Id": "1573",
+      "Hash": "39177514",
+      "IsOutgoing": false,
+      "ClassName": "_-U1V"
+    },
+    {
+      "Name": "ObjectDataUpdate",
+      "Id": "1584",
+      "Hash": "50581426",
+      "IsOutgoing": false,
+      "ClassName": "_-m1A"
+    },
+    {
+      "Name": "UniqueMachineID",
+      "Id": "1595",
+      "Hash": "30400195",
+      "IsOutgoing": false,
+      "ClassName": "_-eN"
+    },
+    {
+      "Name": "LoginFailedHotelClosed",
+      "Id": "1597",
+      "Hash": "58047761",
+      "IsOutgoing": false,
+      "ClassName": "_-Wf"
+    },
+    {
+      "Name": "CompetitionVotingInfo",
+      "Id": "1599",
+      "Hash": "56592155",
+      "IsOutgoing": false,
+      "ClassName": "_-Rp"
+    },
+    {
+      "Name": "GuideSessionDetached",
+      "Id": "1612",
+      "Hash": "9915935",
+      "IsOutgoing": false,
+      "ClassName": "_-q1R"
+    },
+    {
+      "Name": "HabboGroupDetails",
+      "Id": "1621",
+      "Hash": "37818817",
+      "IsOutgoing": false,
+      "ClassName": "_-Y14"
+    },
+    {
+      "Name": "MarketPlaceOwnOffers",
+      "Id": "1629",
+      "Hash": "54764719",
+      "IsOutgoing": false,
+      "ClassName": "_-11B"
+    },
+    {
+      "Name": "SpecialRoomEffect",
+      "Id": "1630",
+      "Hash": "4057632",
+      "IsOutgoing": false,
+      "ClassName": "_-128"
+    },
+    {
+      "Name": "FigureSetIdRemoved",
+      "Id": "1639",
+      "Hash": "9021196",
+      "IsOutgoing": false,
+      "ClassName": "_-i1y"
+    },
+    {
+      "Name": "HabboUserBadges",
+      "Id": "1645",
+      "Hash": "66085117",
+      "IsOutgoing": false,
+      "ClassName": "_-91e"
+    },
+    {
+      "Name": "RoomReady",
+      "Id": "1662",
+      "Hash": "19590229",
+      "IsOutgoing": false,
+      "ClassName": "_-H18"
+    },
+    {
+      "Name": "Expression",
+      "Id": "1674",
+      "Hash": "1101770",
+      "IsOutgoing": false,
+      "ClassName": "_-12K"
+    },
+    {
+      "Name": "ObjectRemove",
+      "Id": "1675",
+      "Hash": "38451933",
+      "IsOutgoing": false,
+      "ClassName": "_-71Z"
+    },
+    {
+      "Name": "ModeratorActionResult",
+      "Id": "1681",
+      "Hash": "17216995",
+      "IsOutgoing": false,
+      "ClassName": "_-vW"
+    },
+    {
+      "Name": "ChatReviewSessionVotingStatus",
+      "Id": "1688",
+      "Hash": "52380055",
+      "IsOutgoing": false,
+      "ClassName": "_-s17"
+    },
+    {
+      "Name": "TradingYouAreNotAllowed",
+      "Id": "1694",
+      "Hash": "21522166",
+      "IsOutgoing": false,
+      "ClassName": "_-zw"
+    },
+    {
+      "Name": "Game2PlayerExitedGameArena",
+      "Id": "17",
+      "Hash": "1927776",
+      "IsOutgoing": false,
+      "ClassName": "_-c1g"
+    },
+    {
+      "Name": "UserRemove",
+      "Id": "1710",
+      "Hash": "31780825",
+      "IsOutgoing": false,
+      "ClassName": "_-jt"
+    },
+    {
+      "Name": "NewUserExperienceGiftOffer",
+      "Id": "1711",
+      "Hash": "21772565",
+      "IsOutgoing": false,
+      "ClassName": "_-x1P"
+    },
+    {
+      "Name": "HabboGroupJoinFailed",
+      "Id": "1726",
+      "Hash": "64854219",
+      "IsOutgoing": false,
+      "ClassName": "_-b1k"
+    },
+    {
+      "Name": "DirectSMSClubBuyAvailable",
+      "Id": "1727",
+      "Hash": "50315352",
+      "IsOutgoing": false,
+      "ClassName": "_-a1F"
+    },
+    {
+      "Name": "PetLevelUpdate",
+      "Id": "1736",
+      "Hash": "1048160",
+      "IsOutgoing": false,
+      "ClassName": "_-CT"
+    },
+    {
+      "Name": "GuideSessionEnded",
+      "Id": "1742",
+      "Hash": "34508084",
+      "IsOutgoing": false,
+      "ClassName": "_-22r"
+    },
+    {
+      "Name": "FaqText",
+      "Id": "1743",
+      "Hash": "34774863",
+      "IsOutgoing": false,
+      "ClassName": "_-l18"
+    },
+    {
+      "Name": "CantConnect",
+      "Id": "1758",
+      "Hash": "29397739",
+      "IsOutgoing": false,
+      "ClassName": "_-v18"
+    },
+    {
+      "Name": "ModeratorInit",
+      "Id": "1761",
+      "Hash": "17778899",
+      "IsOutgoing": false,
+      "ClassName": "_-u1N"
+    },
+    {
+      "Name": "GuideSessionMessage",
+      "Id": "1770",
+      "Hash": "47144157",
+      "IsOutgoing": false,
+      "ClassName": "_-Zg"
+    },
+    {
+      "Name": "AchievementsScore",
+      "Id": "1776",
+      "Hash": "59224828",
+      "IsOutgoing": false,
+      "ClassName": "_-bn"
+    },
+    {
+      "Name": "BotInventory",
+      "Id": "1778",
+      "Hash": "37840511",
+      "IsOutgoing": false,
+      "ClassName": "_-tl"
+    },
+    {
+      "Name": "RoomInviteError",
+      "Id": "1788",
+      "Hash": "35225966",
+      "IsOutgoing": false,
+      "ClassName": "_-n1E"
+    },
+    {
+      "Name": "FurniListInvalidate",
+      "Id": "1803",
+      "Hash": "20490669",
+      "IsOutgoing": false,
+      "ClassName": "_-z1u"
+    },
+    {
+      "Name": "RentableSpaceRentOk",
+      "Id": "1808",
+      "Hash": "54875957",
+      "IsOutgoing": false,
+      "ClassName": "_-p17"
+    },
+    {
+      "Name": "TalentTrack",
+      "Id": "181",
+      "Hash": "56476259",
+      "IsOutgoing": false,
+      "ClassName": "_-OV"
+    },
+    {
+      "Name": "GamePlayerValue",
+      "Id": "1813",
+      "Hash": "65219236",
+      "IsOutgoing": false,
+      "ClassName": "_-o1E"
+    },
+    {
+      "Name": "GuildEditorData",
+      "Id": "1816",
+      "Hash": "46964992",
+      "IsOutgoing": false,
+      "ClassName": "_-Ph"
+    },
+    {
+      "Name": "TradingClose",
+      "Id": "182",
+      "Hash": "53606218",
+      "IsOutgoing": false,
+      "ClassName": "_-I1Y"
+    },
+    {
+      "Name": "Game2UserJoinedGame",
+      "Id": "1824",
+      "Hash": "22367029",
+      "IsOutgoing": false,
+      "ClassName": "_-E1X"
+    },
+    {
+      "Name": "SeasonalCalendarDailyOffer",
+      "Id": "1831",
+      "Hash": "66482253",
+      "IsOutgoing": false,
+      "ClassName": "_-f18"
+    },
+    {
+      "Name": "PetLevelNotification",
+      "Id": "1840",
+      "Hash": "51181499",
+      "IsOutgoing": false,
+      "ClassName": "_-pR"
+    },
+    {
+      "Name": "GroupDetailsChanged",
+      "Id": "1844",
+      "Hash": "6993202",
+      "IsOutgoing": false,
+      "ClassName": "_-k7"
+    },
+    {
+      "Name": "CustomUserNotification",
+      "Id": "1851",
+      "Hash": "44962972",
+      "IsOutgoing": false,
+      "ClassName": "_-8O"
+    },
+    {
+      "Name": "RoomSettingsSaveError",
+      "Id": "1861",
+      "Hash": "41130254",
+      "IsOutgoing": false,
+      "ClassName": "_-6K"
+    },
+    {
+      "Name": "RoomEntryTile",
+      "Id": "1869",
+      "Hash": "28788263",
+      "IsOutgoing": false,
+      "ClassName": "_-s1p"
+    },
+    {
+      "Name": "MarketplaceConfiguration",
+      "Id": "1871",
+      "Hash": "33785274",
+      "IsOutgoing": false,
+      "ClassName": "_-8Q"
+    },
+    {
+      "Name": "RoomSettingsData",
+      "Id": "1884",
+      "Hash": "32830290",
+      "IsOutgoing": false,
+      "ClassName": "_-CY"
+    },
+    {
+      "Name": "Game2StageLoad",
+      "Id": "1885",
+      "Hash": "18018639",
+      "IsOutgoing": false,
+      "ClassName": "_-hy"
+    },
+    {
+      "Name": "ElementPointer",
+      "Id": "1886",
+      "Hash": "27154837",
+      "IsOutgoing": false,
+      "ClassName": "_-eU"
+    },
+    {
+      "Name": "CategoriesWithVisitorCount",
+      "Id": "1893",
+      "Hash": "62333418",
+      "IsOutgoing": false,
+      "ClassName": "_-81z"
+    },
+    {
+      "Name": "HabboClubExtendOffer",
+      "Id": "1897",
+      "Hash": "33970848",
+      "IsOutgoing": false,
+      "ClassName": "_-H11"
+    },
+    {
+      "Name": "UserNameChanged",
+      "Id": "1909",
+      "Hash": "48832851",
+      "IsOutgoing": false,
+      "ClassName": "_-21i"
+    },
+    {
+      "Name": "HabboGroupBadges",
+      "Id": "1930",
+      "Hash": "12577900",
+      "IsOutgoing": false,
+      "ClassName": "_-OX"
+    },
+    {
+      "Name": "HabboAchievementNotification",
+      "Id": "1933",
+      "Hash": "3226198",
+      "IsOutgoing": false,
+      "ClassName": "_-J1h"
+    },
+    {
+      "Name": "ObjectsDataUpdate",
+      "Id": "1939",
+      "Hash": "64124362",
+      "IsOutgoing": false,
+      "ClassName": "_-sQ"
+    },
+    {
+      "Name": "HabboClubOffers",
+      "Id": "1955",
+      "Hash": "33489078",
+      "IsOutgoing": false,
+      "ClassName": "_-NM"
+    },
+    {
+      "Name": "UserGameAchievements",
+      "Id": "1965",
+      "Hash": "35632012",
+      "IsOutgoing": false,
+      "ClassName": "UserGameAchievementsMessageEvent"
+    },
+    {
+      "Name": "CatalogPage",
+      "Id": "1967",
+      "Hash": "11177013",
+      "IsOutgoing": false,
+      "ClassName": "_-IQ"
+    },
+    {
+      "Name": "CurrentTimingCode",
+      "Id": "1976",
+      "Hash": "26691149",
+      "IsOutgoing": false,
+      "ClassName": "_-xv"
+    },
+    {
+      "Name": "Favourites",
+      "Id": "1987",
+      "Hash": "60890569",
+      "IsOutgoing": false,
+      "ClassName": "_-Ye"
+    },
+    {
+      "Name": "CraftingRecipe",
+      "Id": "1990",
+      "Hash": "50525752",
+      "IsOutgoing": false,
+      "ClassName": "_-V"
+    },
+    {
+      "Name": "GuideSessionError",
+      "Id": "200",
+      "Hash": "66228199",
+      "IsOutgoing": false,
+      "ClassName": "_-X12"
+    },
+    {
+      "Name": "FavoriteMembershipUpdate",
+      "Id": "202",
+      "Hash": "65946577",
+      "IsOutgoing": false,
+      "ClassName": "_-3W"
+    },
+    {
+      "Name": "JukeboxPlayListFull",
+      "Id": "2024",
+      "Hash": "10926182",
+      "IsOutgoing": false,
+      "ClassName": "_-d8"
+    },
+    {
+      "Name": "PopularRoomTagsResult",
+      "Id": "2029",
+      "Hash": "1348700",
+      "IsOutgoing": false,
+      "ClassName": "_-k1c"
+    },
+    {
+      "Name": "GotMysteryBoxPrize",
+      "Id": "2035",
+      "Hash": "50261201",
+      "IsOutgoing": false,
+      "ClassName": "_-Zr"
+    },
+    {
+      "Name": "IssueCloseNotification",
+      "Id": "2039",
+      "Hash": "5394248",
+      "IsOutgoing": false,
+      "ClassName": "_-KX"
+    },
+    {
+      "Name": "FlatCreated",
+      "Id": "2049",
+      "Hash": "31226782",
+      "IsOutgoing": false,
+      "ClassName": "_-s13"
+    },
+    {
+      "Name": "AchievementResolutions",
+      "Id": "2070",
+      "Hash": "11318680",
+      "IsOutgoing": false,
+      "ClassName": "_-z1O"
+    },
+    {
+      "Name": "IgnoreResult",
+      "Id": "2071",
+      "Hash": "13543581",
+      "IsOutgoing": false,
+      "ClassName": "_-W1O"
+    },
+    {
+      "Name": "ItemDataUpdate",
+      "Id": "2075",
+      "Hash": "1166200",
+      "IsOutgoing": false,
+      "ClassName": "_-A1m"
+    },
+    {
+      "Name": "Game2StartingGameFailed",
+      "Id": "2095",
+      "Hash": "39312736",
+      "IsOutgoing": false,
+      "ClassName": "Game2StartingGameFailedMessageEvent"
+    },
+    {
+      "Name": "BotRemovedFromInventory",
+      "Id": "2096",
+      "Hash": "52252659",
+      "IsOutgoing": false,
+      "ClassName": "_-g1f"
+    },
+    {
+      "Name": "NewConsole",
+      "Id": "2098",
+      "Hash": "16725372",
+      "IsOutgoing": false,
+      "ClassName": "_-S7"
+    },
+    {
+      "Name": "ErrorReport",
+      "Id": "2100",
+      "Hash": "51945267",
+      "IsOutgoing": false,
+      "ClassName": "_-c1w"
+    },
+    {
+      "Name": "SeasonalQuests",
+      "Id": "2114",
+      "Hash": "35025494",
+      "IsOutgoing": false,
+      "ClassName": "_-2X"
+    },
+    {
+      "Name": "AvatarEffectAdded",
+      "Id": "2123",
+      "Hash": "63406242",
+      "IsOutgoing": false,
+      "ClassName": "_-AL"
+    },
+    {
+      "Name": "PetSupplementedNotification",
+      "Id": "2126",
+      "Hash": "14796483",
+      "IsOutgoing": false,
+      "ClassName": "_-S"
+    },
+    {
+      "Name": "AchievementResolutionCompleted",
+      "Id": "2128",
+      "Hash": "25952117",
+      "IsOutgoing": false,
+      "ClassName": "_-gu"
+    },
+    {
+      "Name": "TargetedOffer",
+      "Id": "2140",
+      "Hash": "11958757",
+      "IsOutgoing": false,
+      "ClassName": "_-Jx"
+    },
+    {
+      "Name": "TradingOtherNotAllowed",
+      "Id": "2146",
+      "Hash": "44855704",
+      "IsOutgoing": false,
+      "ClassName": "_-s12"
+    },
+    {
+      "Name": "UserUnbannedFromRoom",
+      "Id": "2162",
+      "Hash": "30955222",
+      "IsOutgoing": false,
+      "ClassName": "_-RH"
+    },
+    {
+      "Name": "QuestCancelled",
+      "Id": "2167",
+      "Hash": "16313497",
+      "IsOutgoing": false,
+      "ClassName": "_-ni"
+    },
+    {
+      "Name": "NoSuchFlat",
+      "Id": "22",
+      "Hash": "35513827",
+      "IsOutgoing": false,
+      "ClassName": "_-Og"
+    },
+    {
+      "Name": "Game2StageRunning",
+      "Id": "2200",
+      "Hash": "41205809",
+      "IsOutgoing": false,
+      "ClassName": "_-QH"
+    },
+    {
+      "Name": "CfhSanction",
+      "Id": "2234",
+      "Hash": "18747312",
+      "IsOutgoing": false,
+      "ClassName": "_-nh"
+    },
+    {
+      "Name": "MarketPlaceOffers",
+      "Id": "2241",
+      "Hash": "27263117",
+      "IsOutgoing": false,
+      "ClassName": "_-t9"
+    },
+    {
+      "Name": "WeeklyGameRewardWinners",
+      "Id": "2247",
+      "Hash": "51807830",
+      "IsOutgoing": false,
+      "ClassName": "WeeklyGameRewardWinnersEvent"
+    },
+    {
+      "Name": "ConvertedRoomId",
+      "Id": "2251",
+      "Hash": "44143566",
+      "IsOutgoing": false,
+      "ClassName": "_-nO"
+    },
+    {
+      "Name": "RoomVisits",
+      "Id": "2253",
+      "Hash": "55160823",
+      "IsOutgoing": false,
+      "ClassName": "_-K1I"
+    },
+    {
+      "Name": "NoobnessLevel",
+      "Id": "2274",
+      "Hash": "20031746",
+      "IsOutgoing": false,
+      "ClassName": "_-l1J"
+    },
+    {
+      "Name": "PlayListSongAdded",
+      "Id": "2277",
+      "Hash": "25675773",
+      "IsOutgoing": false,
+      "ClassName": "_-NO"
+    },
+    {
+      "Name": "RoomInfoUpdated",
+      "Id": "2278",
+      "Hash": "40248354",
+      "IsOutgoing": false,
+      "ClassName": "_-Aa"
+    },
+    {
+      "Name": "LimitedEditionSoldOut",
+      "Id": "2281",
+      "Hash": "21202951",
+      "IsOutgoing": false,
+      "ClassName": "_-vQ"
+    },
+    {
+      "Name": "CallForHelpPendingCalls",
+      "Id": "2295",
+      "Hash": "12674872",
+      "IsOutgoing": false,
+      "ClassName": "_-w1"
+    },
+    {
+      "Name": "BuildersClubSubscriptionStatus",
+      "Id": "2338",
+      "Hash": "567760",
+      "IsOutgoing": false,
+      "ClassName": "_-h1I"
+    },
+    {
+      "Name": "CanCreateRoomEvent",
+      "Id": "2339",
+      "Hash": "16928338",
+      "IsOutgoing": false,
+      "ClassName": "_-Tp"
+    },
+    {
+      "Name": "TradingNoSuchItem",
+      "Id": "2351",
+      "Hash": "7358688",
+      "IsOutgoing": false,
+      "ClassName": "_-A19"
+    },
+    {
+      "Name": "Game2FullGameStatus",
+      "Id": "2359",
+      "Hash": "24345054",
+      "IsOutgoing": false,
+      "ClassName": "_-n1M"
+    },
+    {
+      "Name": "Game2WeeklyLeaderboard",
+      "Id": "2362",
+      "Hash": "49448848",
+      "IsOutgoing": false,
+      "ClassName": "Game2WeeklyLeaderboardEvent"
+    },
+    {
+      "Name": "HeightMapUpdate",
+      "Id": "237",
+      "Hash": "9490272",
+      "IsOutgoing": false,
+      "ClassName": "_-h1E"
+    },
+    {
+      "Name": "ObjectUpdate",
+      "Id": "2382",
+      "Hash": "20374254",
+      "IsOutgoing": false,
+      "ClassName": "_-c3"
+    },
+    {
+      "Name": "YouAreSpectator",
+      "Id": "2402",
+      "Hash": "25879650",
+      "IsOutgoing": false,
+      "ClassName": "_-ev"
+    },
+    {
+      "Name": "PollOffer",
+      "Id": "2420",
+      "Hash": "37285554",
+      "IsOutgoing": false,
+      "ClassName": "_-y1B"
+    },
+    {
+      "Name": "ActivityPoints",
+      "Id": "2424",
+      "Hash": "62999416",
+      "IsOutgoing": false,
+      "ClassName": "_-wm"
+    },
+    {
+      "Name": "RoomAdPurchaseInfo",
+      "Id": "2440",
+      "Hash": "53507960",
+      "IsOutgoing": false,
+      "ClassName": "_-YH"
+    },
+    {
+      "Name": "Game2TotalLeaderboard",
+      "Id": "2456",
+      "Hash": "1658455",
+      "IsOutgoing": false,
+      "ClassName": "Game2TotalLeaderboardEvent"
+    },
+    {
+      "Name": "CreditBalance",
+      "Id": "2459",
+      "Hash": "66892145",
+      "IsOutgoing": false,
+      "ClassName": "_-u7"
+    },
+    {
+      "Name": "IdentityAccounts",
+      "Id": "2474",
+      "Hash": "62509834",
+      "IsOutgoing": false,
+      "ClassName": "_-x1p"
+    },
+    {
+      "Name": "CallForHelpReply",
+      "Id": "2477",
+      "Hash": "61747774",
+      "IsOutgoing": false,
+      "ClassName": "_-S1q"
+    },
+    {
+      "Name": "MarketplaceBuyOfferResult",
+      "Id": "2491",
+      "Hash": "48598242",
+      "IsOutgoing": false,
+      "ClassName": "_-Ro"
+    },
+    {
+      "Name": "PlayList",
+      "Id": "2494",
+      "Hash": "66054074",
+      "IsOutgoing": false,
+      "ClassName": "_-p1c"
+    },
+    {
+      "Name": "Open",
+      "Id": "2496",
+      "Hash": "35528341",
+      "IsOutgoing": false,
+      "ClassName": "_-M9"
+    },
+    {
+      "Name": "CameraPublishStatus",
+      "Id": "2497",
+      "Hash": "29105235",
+      "IsOutgoing": false,
+      "ClassName": "_-K1x"
+    },
+    {
+      "Name": "GiftWrappingConfiguration",
+      "Id": "2505",
+      "Hash": "51812368",
+      "IsOutgoing": false,
+      "ClassName": "_-wF"
+    },
+    {
+      "Name": "PollContents",
+      "Id": "2511",
+      "Hash": "25747420",
+      "IsOutgoing": false,
+      "ClassName": "_-G1o"
+    },
+    {
+      "Name": "ChatReviewSessionResults",
+      "Id": "2532",
+      "Hash": "30514590",
+      "IsOutgoing": false,
+      "ClassName": "_-6r"
+    },
+    {
+      "Name": "ItemUpdate",
+      "Id": "2541",
+      "Hash": "29083993",
+      "IsOutgoing": false,
+      "ClassName": "_-n1b"
+    },
+    {
+      "Name": "Game2WeeklyGroupLeaderboard",
+      "Id": "2575",
+      "Hash": "22134555",
+      "IsOutgoing": false,
+      "ClassName": "Game2WeeklyGroupLeaderboardEvent"
+    },
+    {
+      "Name": "FriendListFragment",
+      "Id": "2582",
+      "Hash": "5281111",
+      "IsOutgoing": false,
+      "ClassName": "_-u1o"
+    },
+    {
+      "Name": "Game2PlayerRematches",
+      "Id": "2590",
+      "Hash": "3048957",
+      "IsOutgoing": false,
+      "ClassName": "_-E11"
+    },
+    {
+      "Name": "FaqCategories",
+      "Id": "2602",
+      "Hash": "34759260",
+      "IsOutgoing": false,
+      "ClassName": "_-m1l"
+    },
+    {
+      "Name": "PostMessage",
+      "Id": "2607",
+      "Hash": "34627969",
+      "IsOutgoing": false,
+      "ClassName": "_-Tk"
+    },
+    {
+      "Name": "CameraSnapshot",
+      "Id": "2608",
+      "Hash": "30971651",
+      "IsOutgoing": false,
+      "ClassName": "_-4d"
+    },
+    {
+      "Name": "RoomDimmerPresets",
+      "Id": "2624",
+      "Hash": "23224207",
+      "IsOutgoing": false,
+      "ClassName": "_-X1e"
+    },
+    {
+      "Name": "FollowFriendFailed",
+      "Id": "2627",
+      "Hash": "24152954",
+      "IsOutgoing": false,
+      "ClassName": "_-C1J"
+    },
+    {
+      "Name": "RoomRating",
+      "Id": "2644",
+      "Hash": "52078584",
+      "IsOutgoing": false,
+      "ClassName": "_-zq"
+    },
+    {
+      "Name": "MarketplaceItemStats",
+      "Id": "2645",
+      "Hash": "17294952",
+      "IsOutgoing": false,
+      "ClassName": "_-p1w"
+    },
+    {
+      "Name": "RoomEntryInfo",
+      "Id": "2652",
+      "Hash": "38888871",
+      "IsOutgoing": false,
+      "ClassName": "_-Hw"
+    },
+    {
+      "Name": "CameraPurchaseOK",
+      "Id": "2659",
+      "Hash": "36771698",
+      "IsOutgoing": false,
+      "ClassName": "_-31M"
+    },
+    {
+      "Name": "NavigatorMetaData",
+      "Id": "2666",
+      "Hash": "7092232",
+      "IsOutgoing": false,
+      "ClassName": "_-ah"
+    },
+    {
+      "Name": "Whisper",
+      "Id": "2675",
+      "Hash": "30123063",
+      "IsOutgoing": false,
+      "ClassName": "_-Hx"
+    },
+    {
+      "Name": "GuildEditFailed",
+      "Id": "2686",
+      "Hash": "21749735",
+      "IsOutgoing": false,
+      "ClassName": "_-gH"
+    },
+    {
+      "Name": "MiniMailNew",
+      "Id": "2689",
+      "Hash": "20800170",
+      "IsOutgoing": false,
+      "ClassName": "_-kN"
+    },
+    {
+      "Name": "PurchaseNotAllowed",
+      "Id": "269",
+      "Hash": "48068532",
+      "IsOutgoing": false,
+      "ClassName": "_-y1H"
+    },
+    {
+      "Name": "IsOfferGiftable",
+      "Id": "2695",
+      "Hash": "23288300",
+      "IsOutgoing": false,
+      "ClassName": "_-zs"
+    },
+    {
+      "Name": "Objects",
+      "Id": "2698",
+      "Hash": "48548238",
+      "IsOutgoing": false,
+      "ClassName": "_-q1m"
+    },
+    {
+      "Name": "ForumData",
+      "Id": "2701",
+      "Hash": "15663836",
+      "IsOutgoing": false,
+      "ClassName": "_-E1S"
+    },
+    {
+      "Name": "AvatarEffectActivated",
+      "Id": "2707",
+      "Hash": "21493617",
+      "IsOutgoing": false,
+      "ClassName": "_-z1c"
+    },
+    {
+      "Name": "Quests",
+      "Id": "2715",
+      "Hash": "49359659",
+      "IsOutgoing": false,
+      "ClassName": "_-xw"
+    },
+    {
+      "Name": "FaqSearchResults",
+      "Id": "2717",
+      "Hash": "36783718",
+      "IsOutgoing": false,
+      "ClassName": "_-t3"
+    },
+    {
+      "Name": "BadgePointLimits",
+      "Id": "2720",
+      "Hash": "41542534",
+      "IsOutgoing": false,
+      "ClassName": "_-hG"
+    },
+    {
+      "Name": "TradingOpen",
+      "Id": "2728",
+      "Hash": "15080136",
+      "IsOutgoing": false,
+      "ClassName": "_-k1P"
+    },
+    {
+      "Name": "MysteryBoxKeys",
+      "Id": "2731",
+      "Hash": "66793230",
+      "IsOutgoing": false,
+      "ClassName": "_-21w"
+    },
+    {
+      "Name": "GuideTicketResolution",
+      "Id": "2751",
+      "Hash": "48948360",
+      "IsOutgoing": false,
+      "ClassName": "_-jC"
+    },
+    {
+      "Name": "TradingConfirmation",
+      "Id": "2756",
+      "Hash": "7284614",
+      "IsOutgoing": false,
+      "ClassName": "_-wl"
+    },
+    {
+      "Name": "ScrSendKickbackInfo",
+      "Id": "2759",
+      "Hash": "37564172",
+      "IsOutgoing": false,
+      "ClassName": "_-JF"
+    },
+    {
+      "Name": "WeeklyCompetitiveFriendsLeaderboard",
+      "Id": "2766",
+      "Hash": "31450711",
+      "IsOutgoing": false,
+      "ClassName": "WeeklyCompetitiveFriendsLeaderboardEvent"
+    },
+    {
+      "Name": "PetCommands",
+      "Id": "2786",
+      "Hash": "53182860",
+      "IsOutgoing": false,
+      "ClassName": "_-f1s"
+    },
+    {
+      "Name": "Game2WeeklyFriendsLeaderboard",
+      "Id": "2788",
+      "Hash": "56247849",
+      "IsOutgoing": false,
+      "ClassName": "Game2WeeklyFriendsLeaderboardEvent"
+    },
+    {
+      "Name": "QuestionAnswered",
+      "Id": "279",
+      "Hash": "43381623",
+      "IsOutgoing": false,
+      "ClassName": "_-51b"
+    },
+    {
+      "Name": "PostItPlaced",
+      "Id": "28",
+      "Hash": "10497152",
+      "IsOutgoing": false,
+      "ClassName": "_-22I"
+    },
+    {
+      "Name": "PetPlacingError",
+      "Id": "2807",
+      "Hash": "10402369",
+      "IsOutgoing": false,
+      "ClassName": "_-K2"
+    },
+    {
+      "Name": "TradingItemList",
+      "Id": "2818",
+      "Hash": "11133493",
+      "IsOutgoing": false,
+      "ClassName": "_-41j"
+    },
+    {
+      "Name": "AuthenticationOK",
+      "Id": "2819",
+      "Hash": "11318800",
+      "IsOutgoing": false,
+      "ClassName": "_-2G"
+    },
+    {
+      "Name": "IgnoredUsers",
+      "Id": "2827",
+      "Hash": "59781901",
+      "IsOutgoing": false,
+      "ClassName": "_-y1Y"
+    },
+    {
+      "Name": "FindFriendsProcessResult",
+      "Id": "283",
+      "Hash": "16310625",
+      "IsOutgoing": false,
+      "ClassName": "_-y1e"
+    },
+    {
+      "Name": "ChangeUserNameResult",
+      "Id": "2834",
+      "Hash": "50198296",
+      "IsOutgoing": false,
+      "ClassName": "_-lk"
+    },
+    {
+      "Name": "RoomSettingsError",
+      "Id": "2844",
+      "Hash": "16639474",
+      "IsOutgoing": false,
+      "ClassName": "_-j1u"
+    },
+    {
+      "Name": "TradingAccept",
+      "Id": "2845",
+      "Hash": "654914",
+      "IsOutgoing": false,
+      "ClassName": "_-9O"
+    },
+    {
+      "Name": "DiceValue",
+      "Id": "2846",
+      "Hash": "63261412",
+      "IsOutgoing": false,
+      "ClassName": "_-q1r"
+    },
+    {
+      "Name": "RoomQueueStatus",
+      "Id": "2847",
+      "Hash": "41381104",
+      "IsOutgoing": false,
+      "ClassName": "_-y18"
+    },
+    {
+      "Name": "AvailabilityStatus",
+      "Id": "285",
+      "Hash": "8883693",
+      "IsOutgoing": false,
+      "ClassName": "_-I0"
+    },
+    {
+      "Name": "FriendFurniCancelLock",
+      "Id": "286",
+      "Hash": "11766267",
+      "IsOutgoing": false,
+      "ClassName": "_-p1F"
+    },
+    {
+      "Name": "CompetitionStatus",
+      "Id": "2864",
+      "Hash": "59952436",
+      "IsOutgoing": false,
+      "ClassName": "_-e1A"
+    },
+    {
+      "Name": "GroupMembershipRequested",
+      "Id": "2872",
+      "Hash": "41583755",
+      "IsOutgoing": false,
+      "ClassName": "_-VV"
+    },
+    {
+      "Name": "IsBadgeRequestFulfilled",
+      "Id": "2873",
+      "Hash": "38694667",
+      "IsOutgoing": false,
+      "ClassName": "_-V18"
+    },
+    {
+      "Name": "PetInfo",
+      "Id": "288",
+      "Hash": "42483779",
+      "IsOutgoing": false,
+      "ClassName": "_-1w"
+    },
+    {
+      "Name": "ShowEnforceRoomCategoryDialog",
+      "Id": "2891",
+      "Hash": "49282936",
+      "IsOutgoing": false,
+      "ClassName": "_-A1n"
+    },
+    {
+      "Name": "RemainingMutePeriod",
+      "Id": "2897",
+      "Hash": "3416986",
+      "IsOutgoing": false,
+      "ClassName": "_-Zv"
+    },
+    {
+      "Name": "CommunityVoteReceived",
+      "Id": "2902",
+      "Hash": "52060794",
+      "IsOutgoing": false,
+      "ClassName": "_-DS"
+    },
+    {
+      "Name": "BadgeReceived",
+      "Id": "2907",
+      "Hash": "6849756",
+      "IsOutgoing": false,
+      "ClassName": "_-f1T"
+    },
+    {
+      "Name": "CameraStorageUrl",
+      "Id": "2924",
+      "Hash": "20226985",
+      "IsOutgoing": false,
+      "ClassName": "_-W1p"
+    },
+    {
+      "Name": "TalentLevelUp",
+      "Id": "2927",
+      "Hash": "10309404",
+      "IsOutgoing": false,
+      "ClassName": "_-81e"
+    },
+    {
+      "Name": "CraftingRecipesAvailable",
+      "Id": "2929",
+      "Hash": "25935173",
+      "IsOutgoing": false,
+      "ClassName": "_-Ab"
+    },
+    {
+      "Name": "NewUserExperienceNotComplete",
+      "Id": "2940",
+      "Hash": "61948991",
+      "IsOutgoing": false,
+      "ClassName": "_-M1L"
+    },
+    {
+      "Name": "InitCamera",
+      "Id": "2955",
+      "Hash": "28260775",
+      "IsOutgoing": false,
+      "ClassName": "_-J1v"
+    },
+    {
+      "Name": "Ping",
+      "Id": "296",
+      "Hash": "45638969",
+      "IsOutgoing": false,
+      "ClassName": "_-wX"
+    },
+    {
+      "Name": "FloodControl",
+      "Id": "2972",
+      "Hash": "26512460",
+      "IsOutgoing": false,
+      "ClassName": "_-g1i"
+    },
+    {
+      "Name": "Game2EnterArenaFailed",
+      "Id": "2981",
+      "Hash": "31719739",
+      "IsOutgoing": false,
+      "ClassName": "_-15"
+    },
+    {
+      "Name": "OfficialRooms",
+      "Id": "2983",
+      "Hash": "20670010",
+      "IsOutgoing": false,
+      "ClassName": "_-dN"
+    },
+    {
+      "Name": "InfoHotelClosing",
+      "Id": "2985",
+      "Hash": "47260332",
+      "IsOutgoing": false,
+      "ClassName": "_-jH"
+    },
+    {
+      "Name": "BannedUsersFromRoom",
+      "Id": "2986",
+      "Hash": "25666",
+      "IsOutgoing": false,
+      "ClassName": "_-c1W"
+    },
+    {
+      "Name": "FlatControllerAdded",
+      "Id": "2992",
+      "Hash": "49507636",
+      "IsOutgoing": false,
+      "ClassName": "_-mQ"
+    },
+    {
+      "Name": "NoOwnedRoomsAlert",
+      "Id": "3",
+      "Hash": "15677883",
+      "IsOutgoing": false,
+      "ClassName": "_-6O"
+    },
+    {
+      "Name": "FurniListAddOrUpdate",
+      "Id": "3007",
+      "Hash": "48180537",
+      "IsOutgoing": false,
+      "ClassName": "_-5A"
+    },
+    {
+      "Name": "InstantMessageError",
+      "Id": "301",
+      "Hash": "20501377",
+      "IsOutgoing": false,
+      "ClassName": "_-22e"
+    },
+    {
+      "Name": "Game2JoiningGameFailed",
+      "Id": "3014",
+      "Hash": "45420240",
+      "IsOutgoing": false,
+      "ClassName": "Game2JoiningGameFailedMessageEvent"
+    },
+    {
+      "Name": "YouArePlayingGame",
+      "Id": "3016",
+      "Hash": "36470260",
+      "IsOutgoing": false,
+      "ClassName": "_-ih"
+    },
+    {
+      "Name": "GuildCreated",
+      "Id": "3021",
+      "Hash": "37302179",
+      "IsOutgoing": false,
+      "ClassName": "_-h1C"
+    },
+    {
+      "Name": "TradingCompleted",
+      "Id": "3030",
+      "Hash": "17455632",
+      "IsOutgoing": false,
+      "ClassName": "_-jW"
+    },
+    {
+      "Name": "MarketplaceMakeOfferResult",
+      "Id": "3044",
+      "Hash": "42094334",
+      "IsOutgoing": false,
+      "ClassName": "_-zr"
+    },
+    {
+      "Name": "UserEventCats",
+      "Id": "3045",
+      "Hash": "39601516",
+      "IsOutgoing": false,
+      "ClassName": "_-CE"
+    },
+    {
+      "Name": "PetInventory",
+      "Id": "3048",
+      "Hash": "18887690",
+      "IsOutgoing": false,
+      "ClassName": "_-B1J"
+    },
+    {
+      "Name": "RelationshipStatusInfo",
+      "Id": "3052",
+      "Hash": "17096567",
+      "IsOutgoing": false,
+      "ClassName": "_-E1N"
+    },
+    {
+      "Name": "UserUpdate",
+      "Id": "3075",
+      "Hash": "31638772",
+      "IsOutgoing": false,
+      "ClassName": "_-sg"
+    },
+    {
+      "Name": "RentableSpaceRentFailed",
+      "Id": "3081",
+      "Hash": "7421470",
+      "IsOutgoing": false,
+      "ClassName": "_-WX"
+    },
+    {
+      "Name": "FaqCategory",
+      "Id": "3091",
+      "Hash": "52136226",
+      "IsOutgoing": false,
+      "ClassName": "_-Dd"
+    },
+    {
+      "Name": "GuideSessionPartnerIsTyping",
+      "Id": "3094",
+      "Hash": "15435960",
+      "IsOutgoing": false,
+      "ClassName": "_-p1H"
+    },
+    {
+      "Name": "NotEnoughBalance",
+      "Id": "3097",
+      "Hash": "9289124",
+      "IsOutgoing": false,
+      "ClassName": "_-M16"
+    },
+    {
+      "Name": "Game2GameEnding",
+      "Id": "3102",
+      "Hash": "35943562",
+      "IsOutgoing": false,
+      "ClassName": "_-vG"
+    },
+    {
+      "Name": "WiredSaveSuccess",
+      "Id": "3107",
+      "Hash": "32922880",
+      "IsOutgoing": false,
+      "ClassName": "_-k12"
+    },
+    {
+      "Name": "ConfirmBreedingRequest",
+      "Id": "3110",
+      "Hash": "18634089",
+      "IsOutgoing": false,
+      "ClassName": "_-91c"
+    },
+    {
+      "Name": "GuildEditInfo",
+      "Id": "3115",
+      "Hash": "18281552",
+      "IsOutgoing": false,
+      "ClassName": "_-lZ"
+    },
+    {
+      "Name": "NowPlaying",
+      "Id": "3117",
+      "Hash": "4781813",
+      "IsOutgoing": false,
+      "ClassName": "_-oO"
+    },
+    {
+      "Name": "InfoHotelClosed",
+      "Id": "3121",
+      "Hash": "52846167",
+      "IsOutgoing": false,
+      "ClassName": "_-wv"
+    },
+    {
+      "Name": "Game2GameDirectoryStatus",
+      "Id": "3127",
+      "Hash": "42520941",
+      "IsOutgoing": false,
+      "ClassName": "Game2GameDirectoryStatusMessageEvent"
+    },
+    {
+      "Name": "Game2FriendsLeaderboard",
+      "Id": "313",
+      "Hash": "46046605",
+      "IsOutgoing": false,
+      "ClassName": "Game2FriendsLeaderboardEvent"
+    },
+    {
+      "Name": "YouAreController",
+      "Id": "3155",
+      "Hash": "52851724",
+      "IsOutgoing": false,
+      "ClassName": "_-71w"
+    },
+    {
+      "Name": "QuizResults",
+      "Id": "3162",
+      "Hash": "1183915",
+      "IsOutgoing": false,
+      "ClassName": "_-81o"
+    },
+    {
+      "Name": "NavigatorSavedSearches",
+      "Id": "3171",
+      "Hash": "59582700",
+      "IsOutgoing": false,
+      "ClassName": "_-b1A"
+    },
+    {
+      "Name": "CatalogPageWithEarliestExpiry",
+      "Id": "3178",
+      "Hash": "24250547",
+      "IsOutgoing": false,
+      "ClassName": "_-Ge"
+    },
+    {
+      "Name": "RoomChatSettings",
+      "Id": "3183",
+      "Hash": "52983808",
+      "IsOutgoing": false,
+      "ClassName": "_-01B"
+    },
+    {
+      "Name": "WeeklyGameReward",
+      "Id": "3190",
+      "Hash": "35684727",
+      "IsOutgoing": false,
+      "ClassName": "WeeklyGameRewardEvent"
+    },
+    {
+      "Name": "OpenPetPackageResult",
+      "Id": "3203",
+      "Hash": "3863873",
+      "IsOutgoing": false,
+      "ClassName": "_-Vl"
+    },
+    {
+      "Name": "TradingNotOpen",
+      "Id": "3211",
+      "Hash": "51797270",
+      "IsOutgoing": false,
+      "ClassName": "_-UC"
+    },
+    {
+      "Name": "GuildMembershipUpdated",
+      "Id": "322",
+      "Hash": "17349988",
+      "IsOutgoing": false,
+      "ClassName": "_-Y1P"
+    },
+    {
+      "Name": "ModeratorCaution",
+      "Id": "3222",
+      "Hash": "11099805",
+      "IsOutgoing": false,
+      "ClassName": "_-s1j"
+    },
+    {
+      "Name": "TryVerificationCodeResult",
+      "Id": "324",
+      "Hash": "34760343",
+      "IsOutgoing": false,
+      "ClassName": "_-5l"
+    },
+    {
+      "Name": "YoutubeDisplayVideo",
+      "Id": "3245",
+      "Hash": "43339000",
+      "IsOutgoing": false,
+      "ClassName": "_-Fg"
+    },
+    {
+      "Name": "CustomStackingHeightUpdate",
+      "Id": "3256",
+      "Hash": "57616766",
+      "IsOutgoing": false,
+      "ClassName": "_-bp"
+    },
+    {
+      "Name": "PresentOpened",
+      "Id": "3260",
+      "Hash": "16049999",
+      "IsOutgoing": false,
+      "ClassName": "_-oC"
+    },
+    {
+      "Name": "ApproveName",
+      "Id": "3266",
+      "Hash": "33008913",
+      "IsOutgoing": false,
+      "ClassName": "_-8b"
+    },
+    {
+      "Name": "ThumbnailStatus",
+      "Id": "3271",
+      "Hash": "65193616",
+      "IsOutgoing": false,
+      "ClassName": "_-226"
+    },
+    {
+      "Name": "BotReceived",
+      "Id": "3275",
+      "Hash": "8097541",
+      "IsOutgoing": false,
+      "ClassName": "_-mo"
+    },
+    {
+      "Name": "NavigatorSettings",
+      "Id": "3283",
+      "Hash": "63183526",
+      "IsOutgoing": false,
+      "ClassName": "_-x10"
+    },
+    {
+      "Name": "Game2StageStillLoading",
+      "Id": "3285",
+      "Hash": "18409771",
+      "IsOutgoing": false,
+      "ClassName": "_-SB"
+    },
+    {
+      "Name": "HabboBroadcast",
+      "Id": "3297",
+      "Hash": "31874772",
+      "IsOutgoing": false,
+      "ClassName": "_-32b"
+    },
+    {
+      "Name": "ExtendedProfile",
+      "Id": "3311",
+      "Hash": "5681612",
+      "IsOutgoing": false,
+      "ClassName": "_-AS"
+    },
+    {
+      "Name": "SellablePetPalettes",
+      "Id": "3312",
+      "Hash": "37621475",
+      "IsOutgoing": false,
+      "ClassName": "_-dR"
+    },
+    {
+      "Name": "RoomForward",
+      "Id": "3315",
+      "Hash": "29135240",
+      "IsOutgoing": false,
+      "ClassName": "_-PS"
+    },
+    {
+      "Name": "RoomFilterSettings",
+      "Id": "3322",
+      "Hash": "14499481",
+      "IsOutgoing": false,
+      "ClassName": "_-Kh"
+    },
+    {
+      "Name": "TargetedOfferNotFound",
+      "Id": "3323",
+      "Hash": "55843593",
+      "IsOutgoing": false,
+      "ClassName": "_-E1w"
+    },
+    {
+      "Name": "MessengerInit",
+      "Id": "3344",
+      "Hash": "42007851",
+      "IsOutgoing": false,
+      "ClassName": "_-O11"
+    },
+    {
+      "Name": "WiredFurniCondition",
+      "Id": "3355",
+      "Hash": "32494840",
+      "IsOutgoing": false,
+      "ClassName": "_-P11"
+    },
+    {
+      "Name": "NewNavigatorPreferences",
+      "Id": "3360",
+      "Hash": "66248115",
+      "IsOutgoing": false,
+      "ClassName": "_-ym"
+    },
+    {
+      "Name": "Sleep",
+      "Id": "3364",
+      "Hash": "3957675",
+      "IsOutgoing": false,
+      "ClassName": "_-H1A"
+    },
+    {
+      "Name": "MessengerError",
+      "Id": "3365",
+      "Hash": "31590262",
+      "IsOutgoing": false,
+      "ClassName": "_-e1J"
+    },
+    {
+      "Name": "RoomEventCancel",
+      "Id": "3366",
+      "Hash": "36364960",
+      "IsOutgoing": false,
+      "ClassName": "_-91O"
+    },
+    {
+      "Name": "HotLooks",
+      "Id": "3370",
+      "Hash": "25717600",
+      "IsOutgoing": false,
+      "ClassName": "_-qY"
+    },
+    {
+      "Name": "FlatAccessDenied",
+      "Id": "338",
+      "Hash": "60894213",
+      "IsOutgoing": false,
+      "ClassName": "_-3J"
+    },
+    {
+      "Name": "VoucherRedeemOk",
+      "Id": "3390",
+      "Hash": "4410728",
+      "IsOutgoing": false,
+      "ClassName": "_-op"
+    },
+    {
+      "Name": "IncomeRewardStatus",
+      "Id": "3393",
+      "Hash": "48826322",
+      "IsOutgoing": false,
+      "ClassName": "_-01d"
+    },
+    {
+      "Name": "VoucherRedeemError",
+      "Id": "340",
+      "Hash": "32089967",
+      "IsOutgoing": false,
+      "ClassName": "_-O1o"
+    },
+    {
+      "Name": "QuestionFinished",
+      "Id": "3401",
+      "Hash": "62835574",
+      "IsOutgoing": false,
+      "ClassName": "_-y1v"
+    },
+    {
+      "Name": "RoomOccupiedTiles",
+      "Id": "3403",
+      "Hash": "6114302",
+      "IsOutgoing": false,
+      "ClassName": "_-28"
+    },
+    {
+      "Name": "FigureUpdate",
+      "Id": "3406",
+      "Hash": "10523083",
+      "IsOutgoing": false,
+      "ClassName": "_-ZF"
+    },
+    {
+      "Name": "CitizenshipVipOfferPromoEnabled",
+      "Id": "3409",
+      "Hash": "27440617",
+      "IsOutgoing": false,
+      "ClassName": "_-a1r"
+    },
+    {
+      "Name": "TryPhoneNumberResult",
+      "Id": "3433",
+      "Hash": "6488958",
+      "IsOutgoing": false,
+      "ClassName": "_-12S"
+    },
+    {
+      "Name": "AvatarEffects",
+      "Id": "3448",
+      "Hash": "12156768",
+      "IsOutgoing": false,
+      "ClassName": "_-bT"
+    },
+    {
+      "Name": "PetRemovedFromInventory",
+      "Id": "3449",
+      "Hash": "16353430",
+      "IsOutgoing": false,
+      "ClassName": "_-3T"
+    },
+    {
+      "Name": "PerkAllowances",
+      "Id": "3455",
+      "Hash": "39699339",
+      "IsOutgoing": false,
+      "ClassName": "_-Jb"
+    },
+    {
+      "Name": "GuildMemberships",
+      "Id": "3457",
+      "Hash": "49877601",
+      "IsOutgoing": false,
+      "ClassName": "_-G1b"
+    },
+    {
+      "Name": "InfoFeedEnable",
+      "Id": "3465",
+      "Hash": "55961846",
+      "IsOutgoing": false,
+      "ClassName": "_-Aq"
+    },
+    {
+      "Name": "IsFirstLoginOfDay",
+      "Id": "347",
+      "Hash": "60620523",
+      "IsOutgoing": false,
+      "ClassName": "_-71V"
+    },
+    {
+      "Name": "PetExperience",
+      "Id": "3474",
+      "Hash": "4620049",
+      "IsOutgoing": false,
+      "ClassName": "_-Z8"
+    },
+    {
+      "Name": "CanCreateRoom",
+      "Id": "3477",
+      "Hash": "24807479",
+      "IsOutgoing": false,
+      "ClassName": "_-N1M"
+    },
+    {
+      "Name": "YouAreNotController",
+      "Id": "3490",
+      "Hash": "41469957",
+      "IsOutgoing": false,
+      "ClassName": "_-V16"
+    },
+    {
+      "Name": "Game2GameCreated",
+      "Id": "3494",
+      "Hash": "56478042",
+      "IsOutgoing": false,
+      "ClassName": "_-p16"
+    },
+    {
+      "Name": "Achievements",
+      "Id": "3495",
+      "Hash": "8361080",
+      "IsOutgoing": false,
+      "ClassName": "_-31w"
+    },
+    {
+      "Name": "ShowMysteryBoxWait",
+      "Id": "3497",
+      "Hash": "2098632",
+      "IsOutgoing": false,
+      "ClassName": "_-vg"
+    },
+    {
+      "Name": "InClientLink",
+      "Id": "3498",
+      "Hash": "36885620",
+      "IsOutgoing": false,
+      "ClassName": "_-iy"
+    },
+    {
+      "Name": "NewFriendRequest",
+      "Id": "3499",
+      "Hash": "34085817",
+      "IsOutgoing": false,
+      "ClassName": "_-2S"
+    },
+    {
+      "Name": "FavouriteChanged",
+      "Id": "3507",
+      "Hash": "63830089",
+      "IsOutgoing": false,
+      "ClassName": "_-5p"
+    },
+    {
+      "Name": "CheckUserNameResult",
+      "Id": "3509",
+      "Hash": "59836530",
+      "IsOutgoing": false,
+      "ClassName": "_-on"
+    },
+    {
+      "Name": "Game2StageStarting",
+      "Id": "352",
+      "Hash": "60885635",
+      "IsOutgoing": false,
+      "ClassName": "_-yX"
+    },
+    {
+      "Name": "QuizData",
+      "Id": "3548",
+      "Hash": "53131231",
+      "IsOutgoing": false,
+      "ClassName": "_-k1u"
+    },
+    {
+      "Name": "OpenPetPackageRequested",
+      "Id": "3551",
+      "Hash": "623043",
+      "IsOutgoing": false,
+      "ClassName": "_-41a"
+    },
+    {
+      "Name": "RoomChatlog",
+      "Id": "3563",
+      "Hash": "57773428",
+      "IsOutgoing": false,
+      "ClassName": "_-q1v"
+    },
+    {
+      "Name": "OpenConnection",
+      "Id": "3565",
+      "Hash": "30131813",
+      "IsOutgoing": false,
+      "ClassName": "_-ta"
+    },
+    {
+      "Name": "Chat",
+      "Id": "3570",
+      "Hash": "62608109",
+      "IsOutgoing": false,
+      "ClassName": "_-G1K"
+    },
+    {
+      "Name": "UseObject",
+      "Id": "3576",
+      "Hash": "30457452",
+      "IsOutgoing": false,
+      "ClassName": "_-O1r"
+    },
+    {
+      "Name": "Badges",
+      "Id": "3602",
+      "Hash": "10750772",
+      "IsOutgoing": false,
+      "ClassName": "_-x1w"
+    },
+    {
+      "Name": "PetFigureUpdate",
+      "Id": "3603",
+      "Hash": "39141076",
+      "IsOutgoing": false,
+      "ClassName": "_-ik"
+    },
+    {
+      "Name": "IsUserPartOfCompetition",
+      "Id": "3618",
+      "Hash": "26323242",
+      "IsOutgoing": false,
+      "ClassName": "_-5w"
+    },
+    {
+      "Name": "AvatarEffect",
+      "Id": "3620",
+      "Hash": "8413469",
+      "IsOutgoing": false,
+      "ClassName": "_-v1D"
+    },
+    {
+      "Name": "HotelMergeNameChange",
+      "Id": "3638",
+      "Hash": "31902563",
+      "IsOutgoing": false,
+      "ClassName": "_-Jr"
+    },
+    {
+      "Name": "GuildFurniContextMenuInfo",
+      "Id": "3642",
+      "Hash": "49697630",
+      "IsOutgoing": false,
+      "ClassName": "_-HQ"
+    },
+    {
+      "Name": "PetBreedingResult",
+      "Id": "3654",
+      "Hash": "20228817",
+      "IsOutgoing": false,
+      "ClassName": "_-g1Q"
+    },
+    {
+      "Name": "Dance",
+      "Id": "3655",
+      "Hash": "7670737",
+      "IsOutgoing": false,
+      "ClassName": "_-n1w"
+    },
+    {
+      "Name": "ForumsList",
+      "Id": "3664",
+      "Hash": "47015983",
+      "IsOutgoing": false,
+      "ClassName": "_-J1X"
+    },
+    {
+      "Name": "GoToBreedingNestFailure",
+      "Id": "3666",
+      "Hash": "17792110",
+      "IsOutgoing": false,
+      "ClassName": "_-j1t"
+    },
+    {
+      "Name": "RoomMessageNotification",
+      "Id": "3669",
+      "Hash": "31470215",
+      "IsOutgoing": false,
+      "ClassName": "_-S1K"
+    },
+    {
+      "Name": "HabboSearchResult",
+      "Id": "373",
+      "Hash": "38336904",
+      "IsOutgoing": false,
+      "ClassName": "_-g15"
+    },
+    {
+      "Name": "SecondsUntil",
+      "Id": "3733",
+      "Hash": "2701015",
+      "IsOutgoing": false,
+      "ClassName": "_-eI"
+    },
+    {
+      "Name": "BotAddedToInventory",
+      "Id": "3746",
+      "Hash": "54749715",
+      "IsOutgoing": false,
+      "ClassName": "_-J12"
+    },
+    {
+      "Name": "UserBanned",
+      "Id": "377",
+      "Hash": "36842478",
+      "IsOutgoing": false,
+      "ClassName": "_-XZ"
+    },
+    {
+      "Name": "FloorHeightMap",
+      "Id": "3771",
+      "Hash": "64515557",
+      "IsOutgoing": false,
+      "ClassName": "_-H1F"
+    },
+    {
+      "Name": "RespectNotification",
+      "Id": "3779",
+      "Hash": "62669527",
+      "IsOutgoing": false,
+      "ClassName": "_-510"
+    },
+    {
+      "Name": "ModeratorRoomInfo",
+      "Id": "3783",
+      "Hash": "1984791",
+      "IsOutgoing": false,
+      "ClassName": "_-X16"
+    },
+    {
+      "Name": "Game2InArenaQueue",
+      "Id": "3791",
+      "Hash": "26371793",
+      "IsOutgoing": false,
+      "ClassName": "Game2InArenaQueueMessageEvent"
+    },
+    {
+      "Name": "CommunityGoalHallOfFame",
+      "Id": "3792",
+      "Hash": "38622084",
+      "IsOutgoing": false,
+      "ClassName": "_-Q14"
+    },
+    {
+      "Name": "QuestDaily",
+      "Id": "3798",
+      "Hash": "50147992",
+      "IsOutgoing": false,
+      "ClassName": "_-22C"
+    },
+    {
+      "Name": "AccountPreferences",
+      "Id": "38",
+      "Hash": "63646052",
+      "IsOutgoing": false,
+      "ClassName": "_-n1e"
+    },
+    {
+      "Name": "MaintenanceStatus",
+      "Id": "3800",
+      "Hash": "64665535",
+      "IsOutgoing": false,
+      "ClassName": "_-I1c"
+    },
+    {
+      "Name": "FurniListRemove",
+      "Id": "3810",
+      "Hash": "14783937",
+      "IsOutgoing": false,
+      "ClassName": "_-x1F"
+    },
+    {
+      "Name": "ScrSendUserInfo",
+      "Id": "3829",
+      "Hash": "41372713",
+      "IsOutgoing": false,
+      "ClassName": "_-X1f"
+    },
+    {
+      "Name": "GuideSessionInvitedToGuideRoom",
+      "Id": "3847",
+      "Hash": "35771490",
+      "IsOutgoing": false,
+      "ClassName": "_-wu"
+    },
+    {
+      "Name": "CampaignCalendarDoorOpened",
+      "Id": "3864",
+      "Hash": "52681125",
+      "IsOutgoing": false,
+      "ClassName": "_-Mq"
+    },
+    {
+      "Name": "OfficialSongId",
+      "Id": "387",
+      "Hash": "29906272",
+      "IsOutgoing": false,
+      "ClassName": "_-NB"
+    },
+    {
+      "Name": "AvailabilityTime",
+      "Id": "3876",
+      "Hash": "10588721",
+      "IsOutgoing": false,
+      "ClassName": "_-11d"
+    },
+    {
+      "Name": "PhoneCollectionState",
+      "Id": "3881",
+      "Hash": "18687619",
+      "IsOutgoing": false,
+      "ClassName": "_-d1O"
+    },
+    {
+      "Name": "BotForceOpenContextMenu",
+      "Id": "3883",
+      "Hash": "24112512",
+      "IsOutgoing": false,
+      "ClassName": "_-cO"
+    },
+    {
+      "Name": "PetAddedToInventory",
+      "Id": "3899",
+      "Hash": "18122076",
+      "IsOutgoing": false,
+      "ClassName": "_-8G"
+    },
+    {
+      "Name": "RoomInvite",
+      "Id": "39",
+      "Hash": "33761356",
+      "IsOutgoing": false,
+      "ClassName": "_-h16"
+    },
+    {
+      "Name": "RoomThumbnailUpdateResult",
+      "Id": "3910",
+      "Hash": "45182569",
+      "IsOutgoing": false,
+      "ClassName": "_-419"
+    },
+    {
+      "Name": "RoomEvent",
+      "Id": "3913",
+      "Hash": "9502070",
+      "IsOutgoing": false,
+      "ClassName": "_-q16"
+    },
+    {
+      "Name": "WiredValidationError",
+      "Id": "3922",
+      "Hash": "55740512",
+      "IsOutgoing": false,
+      "ClassName": "_-1g"
+    },
+    {
+      "Name": "ChangeEmailResult",
+      "Id": "3928",
+      "Hash": "39701876",
+      "IsOutgoing": false,
+      "ClassName": "_-k1W"
+    },
+    {
+      "Name": "AvatarEffectSelected",
+      "Id": "3930",
+      "Hash": "46817064",
+      "IsOutgoing": false,
+      "ClassName": "_-I1Z"
+    },
+    {
+      "Name": "Interstitial",
+      "Id": "3931",
+      "Hash": "27845503",
+      "IsOutgoing": false,
+      "ClassName": "_-e1G"
+    },
+    {
+      "Name": "Game2GameNotFound",
+      "Id": "3934",
+      "Hash": "64497130",
+      "IsOutgoing": false,
+      "ClassName": "Game2GameNotFoundMessageEvent"
+    },
+    {
+      "Name": "CatalogIndex",
+      "Id": "3939",
+      "Hash": "9433441",
+      "IsOutgoing": false,
+      "ClassName": "_-8T"
+    },
+    {
+      "Name": "CarryObject",
+      "Id": "3953",
+      "Hash": "63522246",
+      "IsOutgoing": false,
+      "ClassName": "_-W4"
+    },
+    {
+      "Name": "FlatAccessible",
+      "Id": "3956",
+      "Hash": "26543418",
+      "IsOutgoing": false,
+      "ClassName": "_-41u"
+    },
+    {
+      "Name": "QuestCompleted",
+      "Id": "3975",
+      "Hash": "16654654",
+      "IsOutgoing": false,
+      "ClassName": "_-I18"
+    },
+    {
+      "Name": "ModeratorToolPreferences",
+      "Id": "3997",
+      "Hash": "2881685",
+      "IsOutgoing": false,
+      "ClassName": "_-U16"
+    },
+    {
+      "Name": "UnreadForumsCount",
+      "Id": "3998",
+      "Hash": "38338487",
+      "IsOutgoing": false,
+      "ClassName": "_-7O"
+    },
+    {
+      "Name": "DisconnectReason",
+      "Id": "4000",
+      "Hash": "57656175",
+      "IsOutgoing": false,
+      "ClassName": "_-Be"
+    },
+    {
+      "Name": "IssueInfo",
+      "Id": "409",
+      "Hash": "52667802",
+      "IsOutgoing": false,
+      "ClassName": "_-y1D"
+    },
+    {
+      "Name": "Quest",
+      "Id": "421",
+      "Hash": "32368095",
+      "IsOutgoing": false,
+      "ClassName": "_-ft"
+    },
+    {
+      "Name": "YoutubeControlVideo",
+      "Id": "44",
+      "Hash": "4485813",
+      "IsOutgoing": false,
+      "ClassName": "_-SN"
+    },
+    {
+      "Name": "Game2GameStarted",
+      "Id": "444",
+      "Hash": "1832323",
+      "IsOutgoing": false,
+      "ClassName": "_-9n"
+    },
+    {
+      "Name": "ItemRemove",
+      "Id": "449",
+      "Hash": "35582587",
+      "IsOutgoing": false,
+      "ClassName": "_-12w"
+    },
+    {
+      "Name": "IncomeRewardClaimResponse",
+      "Id": "45",
+      "Hash": "32701678",
+      "IsOutgoing": false,
+      "ClassName": "_-81h"
+    },
+    {
+      "Name": "CompetitionEntrySubmitResult",
+      "Id": "480",
+      "Hash": "49150562",
+      "IsOutgoing": false,
+      "ClassName": "_-ve"
+    },
+    {
+      "Name": "RoomProperty",
+      "Id": "484",
+      "Hash": "2750866",
+      "IsOutgoing": false,
+      "ClassName": "_-3Z"
+    },
+    {
+      "Name": "FaqClientFaqs",
+      "Id": "494",
+      "Hash": "27353390",
+      "IsOutgoing": false,
+      "ClassName": "_-t1j"
+    },
+    {
+      "Name": "BotError",
+      "Id": "495",
+      "Hash": "9248440",
+      "IsOutgoing": false,
+      "ClassName": "_-029"
+    },
+    {
+      "Name": "YoutubeDisplayPlaylists",
+      "Id": "502",
+      "Hash": "8612359",
+      "IsOutgoing": false,
+      "ClassName": "_-Q1j"
+    },
+    {
+      "Name": "Users",
+      "Id": "509",
+      "Hash": "28644761",
+      "IsOutgoing": false,
+      "ClassName": "_-Jl"
+    },
+    {
+      "Name": "GuildMembershipRejected",
+      "Id": "516",
+      "Hash": "11244347",
+      "IsOutgoing": false,
+      "ClassName": "_-qW"
+    },
+    {
+      "Name": "Game2ArenaEntered",
+      "Id": "528",
+      "Hash": "14867369",
+      "IsOutgoing": false,
+      "ClassName": "_-f1d"
+    },
+    {
+      "Name": "PollError",
+      "Id": "53",
+      "Hash": "6925935",
+      "IsOutgoing": false,
+      "ClassName": "_-c1c"
+    },
+    {
+      "Name": "MOTDNotification",
+      "Id": "531",
+      "Hash": "12809933",
+      "IsOutgoing": false,
+      "ClassName": "_-7o"
+    },
+    {
+      "Name": "FlatControllers",
+      "Id": "545",
+      "Hash": "49559423",
+      "IsOutgoing": false,
+      "ClassName": "_-c1u"
+    },
+    {
+      "Name": "CompleteDiffieHandshake",
+      "Id": "554",
+      "Hash": "28828491",
+      "IsOutgoing": false,
+      "ClassName": "_-zj"
+    },
+    {
+      "Name": "CraftableProducts",
+      "Id": "578",
+      "Hash": "17959338",
+      "IsOutgoing": false,
+      "ClassName": "_-B1z"
+    },
+    {
+      "Name": "UserChange",
+      "Id": "583",
+      "Hash": "60232767",
+      "IsOutgoing": false,
+      "ClassName": "_-yz"
+    },
+    {
+      "Name": "WiredFurniAction",
+      "Id": "591",
+      "Hash": "34030663",
+      "IsOutgoing": false,
+      "ClassName": "_-EJ"
+    },
+    {
+      "Name": "PurchaseOK",
+      "Id": "596",
+      "Hash": "35455590",
+      "IsOutgoing": false,
+      "ClassName": "_-g1D"
+    },
+    {
+      "Name": "AchievementResolutionProgress",
+      "Id": "60",
+      "Hash": "24110047",
+      "IsOutgoing": false,
+      "ClassName": "_-L7"
+    },
+    {
+      "Name": "ChatReviewSessionStarted",
+      "Id": "613",
+      "Hash": "45028263",
+      "IsOutgoing": false,
+      "ClassName": "_-n1y"
+    },
+    {
+      "Name": "JukeboxSongDisks",
+      "Id": "615",
+      "Hash": "10161546",
+      "IsOutgoing": false,
+      "ClassName": "_-Md"
+    },
+    {
+      "Name": "GiftReceiverNotFound",
+      "Id": "62",
+      "Hash": "28350637",
+      "IsOutgoing": false,
+      "ClassName": "_-iS"
+    },
+    {
+      "Name": "UnseenItems",
+      "Id": "626",
+      "Hash": "6757235",
+      "IsOutgoing": false,
+      "ClassName": "_-rO"
+    },
+    {
+      "Name": "NestBreedingSuccess",
+      "Id": "634",
+      "Hash": "24311045",
+      "IsOutgoing": false,
+      "ClassName": "_-4l"
+    },
+    {
+      "Name": "FriendNotification",
+      "Id": "647",
+      "Hash": "61647805",
+      "IsOutgoing": false,
+      "ClassName": "_-My"
+    },
+    {
+      "Name": "FlatControllerRemoved",
+      "Id": "650",
+      "Hash": "27788141",
+      "IsOutgoing": false,
+      "ClassName": "_-RB"
+    },
+    {
+      "Name": "IssueDeleted",
+      "Id": "656",
+      "Hash": "6780253",
+      "IsOutgoing": false,
+      "ClassName": "_-V5"
+    },
+    {
+      "Name": "Question",
+      "Id": "672",
+      "Hash": "2013564",
+      "IsOutgoing": false,
+      "ClassName": "_-4H"
+    },
+    {
+      "Name": "RentableSpaceStatus",
+      "Id": "683",
+      "Hash": "5903470",
+      "IsOutgoing": false,
+      "ClassName": "_-5f"
+    },
+    {
+      "Name": "Game2StartCounter",
+      "Id": "688",
+      "Hash": "53128157",
+      "IsOutgoing": false,
+      "ClassName": "Game2StartCounterMessageEvent"
+    },
+    {
+      "Name": "Game2StageEnding",
+      "Id": "696",
+      "Hash": "21932166",
+      "IsOutgoing": false,
+      "ClassName": "_-Sg"
+    },
+    {
+      "Name": "PromoArticles",
+      "Id": "7",
+      "Hash": "10232270",
+      "IsOutgoing": false,
+      "ClassName": "_-P1e"
+    },
+    {
+      "Name": "FurniRentOrBuyoutOffer",
+      "Id": "701",
+      "Hash": "58663159",
+      "IsOutgoing": false,
+      "ClassName": "_-5z"
+    },
+    {
+      "Name": "Items",
+      "Id": "702",
+      "Hash": "12054440",
+      "IsOutgoing": false,
+      "ClassName": "_-z1L"
+    },
+    {
+      "Name": "LatencyPingResponse",
+      "Id": "704",
+      "Hash": "38280736",
+      "IsOutgoing": false,
+      "ClassName": "_-t1M"
+    },
+    {
+      "Name": "ExtendedProfileChanged",
+      "Id": "705",
+      "Hash": "30265903",
+      "IsOutgoing": false,
+      "ClassName": "_-L1a"
+    },
+    {
+      "Name": "HeightMap",
+      "Id": "708",
+      "Hash": "4606985",
+      "IsOutgoing": false,
+      "ClassName": "_-fN"
+    },
+    {
+      "Name": "BotCommandConfiguration",
+      "Id": "717",
+      "Hash": "9911889",
+      "IsOutgoing": false,
+      "ClassName": "_-32R"
+    },
+    {
+      "Name": "ClubGiftInfo",
+      "Id": "724",
+      "Hash": "64036700",
+      "IsOutgoing": false,
+      "ClassName": "_-kq"
+    },
+    {
+      "Name": "FurnitureAliases",
+      "Id": "725",
+      "Hash": "21436848",
+      "IsOutgoing": false,
+      "ClassName": "_-P1L"
+    },
+    {
+      "Name": "HabboActivityPointNotification",
+      "Id": "726",
+      "Hash": "15842089",
+      "IsOutgoing": false,
+      "ClassName": "_-xO"
+    },
+    {
+      "Name": "Game2UserLeftGame",
+      "Id": "735",
+      "Hash": "8140857",
+      "IsOutgoing": false,
+      "ClassName": "Game2UserLeftGameMessageEvent"
+    },
+    {
+      "Name": "UpdateMessage",
+      "Id": "750",
+      "Hash": "22820469",
+      "IsOutgoing": false,
+      "ClassName": "_-m1v"
+    },
+    {
+      "Name": "CancelMysteryBoxWait",
+      "Id": "758",
+      "Hash": "61735358",
+      "IsOutgoing": false,
+      "ClassName": "_-Cw"
+    },
+    {
+      "Name": "ClubGiftNotification",
+      "Id": "78",
+      "Hash": "23507505",
+      "IsOutgoing": false,
+      "ClassName": "_-L11"
+    },
+    {
+      "Name": "EmailStatusResult",
+      "Id": "780",
+      "Hash": "7304143",
+      "IsOutgoing": false,
+      "ClassName": "_-N1v"
+    },
+    {
+      "Name": "UserChatlog",
+      "Id": "788",
+      "Hash": "42353227",
+      "IsOutgoing": false,
+      "ClassName": "_-z"
+    },
+    {
+      "Name": "PetStatusUpdate",
+      "Id": "795",
+      "Hash": "35811316",
+      "IsOutgoing": false,
+      "ClassName": "_-d19"
+    },
+    {
+      "Name": "SlideObjectBundle",
+      "Id": "804",
+      "Hash": "58377623",
+      "IsOutgoing": false,
+      "ClassName": "_-21W"
+    },
+    {
+      "Name": "ThreadMessages",
+      "Id": "807",
+      "Hash": "49143529",
+      "IsOutgoing": false,
+      "ClassName": "_-JC"
+    },
+    {
+      "Name": "UserTyping",
+      "Id": "810",
+      "Hash": "34731002",
+      "IsOutgoing": false,
+      "ClassName": "_-f3"
+    },
+    {
+      "Name": "PetBreeding",
+      "Id": "811",
+      "Hash": "24111608",
+      "IsOutgoing": false,
+      "ClassName": "_-81S"
+    },
+    {
+      "Name": "TalentTrackLevel",
+      "Id": "816",
+      "Hash": "24757801",
+      "IsOutgoing": false,
+      "ClassName": "_-01T"
+    },
+    {
+      "Name": "Game2AccountGameStatus",
+      "Id": "821",
+      "Hash": "35909463",
+      "IsOutgoing": false,
+      "ClassName": "Game2AccountGameStatusMessageEvent"
+    },
+    {
+      "Name": "AccountSafetyLockStatusChange",
+      "Id": "835",
+      "Hash": "55467050",
+      "IsOutgoing": false,
+      "ClassName": "_-v1t"
+    },
+    {
+      "Name": "UserSongDisksInventory",
+      "Id": "838",
+      "Hash": "25792371",
+      "IsOutgoing": false,
+      "ClassName": "_-MV"
+    },
+    {
+      "Name": "ItemAdd",
+      "Id": "840",
+      "Hash": "63943666",
+      "IsOutgoing": false,
+      "ClassName": "_-t1Z"
+    },
+    {
+      "Name": "AcceptFriendResult",
+      "Id": "850",
+      "Hash": "63146847",
+      "IsOutgoing": false,
+      "ClassName": "_-GC"
+    },
+    {
+      "Name": "InitDiffieHandshake",
+      "Id": "851",
+      "Hash": "35619075",
+      "IsOutgoing": false,
+      "ClassName": "_-Mv"
+    },
+    {
+      "Name": "MarketplaceCanMakeOfferResult",
+      "Id": "860",
+      "Hash": "48014184",
+      "IsOutgoing": false,
+      "ClassName": "_-ea"
+    },
+    {
+      "Name": "Shout",
+      "Id": "866",
+      "Hash": "24129853",
+      "IsOutgoing": false,
+      "ClassName": "_-WB"
+    },
+    {
+      "Name": "ClubGiftSelected",
+      "Id": "872",
+      "Hash": "29474473",
+      "IsOutgoing": false,
+      "ClassName": "_-w1c"
+    },
+    {
+      "Name": "CallForHelpDisabledNotify",
+      "Id": "881",
+      "Hash": "15686020",
+      "IsOutgoing": false,
+      "ClassName": "_-C4"
+    },
+    {
+      "Name": "YouAreOwner",
+      "Id": "883",
+      "Hash": "26758660",
+      "IsOutgoing": false,
+      "ClassName": "_-Ik"
+    },
+    {
+      "Name": "NavigatorSearchResultBlocks",
+      "Id": "89",
+      "Hash": "62938818",
+      "IsOutgoing": false,
+      "ClassName": "_-Ku"
+    },
+    {
+      "Name": "GuideOnDutyStatus",
+      "Id": "892",
+      "Hash": "8060118",
+      "IsOutgoing": false,
+      "ClassName": "_-l1n"
+    },
+    {
+      "Name": "ChatReviewSessionOfferedToGuide",
+      "Id": "906",
+      "Hash": "42644663",
+      "IsOutgoing": false,
+      "ClassName": "_-19"
+    },
+    {
+      "Name": "TradeOpenFailed",
+      "Id": "913",
+      "Hash": "32610412",
+      "IsOutgoing": false,
+      "ClassName": "_-U1L"
+    },
+    {
+      "Name": "TraxSongInfo",
+      "Id": "922",
+      "Hash": "63187419",
+      "IsOutgoing": false,
+      "ClassName": "_-N1D"
+    },
+    {
+      "Name": "FurniList",
+      "Id": "925",
+      "Hash": "55056607",
+      "IsOutgoing": false,
+      "ClassName": "_-y1q"
+    },
+    {
+      "Name": "CallForHelpPendingCallsDeleted",
+      "Id": "926",
+      "Hash": "11989863",
+      "IsOutgoing": false,
+      "ClassName": "_-y1r"
+    },
+    {
+      "Name": "Game2UserBlocked",
+      "Id": "935",
+      "Hash": "51188993",
+      "IsOutgoing": false,
+      "ClassName": "Game2UserBlockedMessageEvent"
+    },
+    {
+      "Name": "HabboGroupDeactivated",
+      "Id": "939",
+      "Hash": "66697461",
+      "IsOutgoing": false,
+      "ClassName": "_-k1p"
+    },
+    {
+      "Name": "FigureSetIds",
+      "Id": "943",
+      "Hash": "45174131",
+      "IsOutgoing": false,
+      "ClassName": "_-Q1t"
+    },
+    {
+      "Name": "GuideSessionRequesterRoom",
+      "Id": "949",
+      "Hash": "52965331",
+      "IsOutgoing": false,
+      "ClassName": "_-E1g"
+    },
+    {
+      "Name": "Wardrobe",
+      "Id": "95",
+      "Hash": "63248075",
+      "IsOutgoing": false,
+      "ClassName": "_-V1g"
+    },
+    {
+      "Name": "Game2GameRejoin",
+      "Id": "953",
+      "Hash": "46191521",
+      "IsOutgoing": false,
+      "ClassName": "_-YZ"
+    },
+    {
+      "Name": "WeeklyCompetitiveLeaderboard",
+      "Id": "963",
+      "Hash": "32406629",
+      "IsOutgoing": false,
+      "ClassName": "WeeklyCompetitiveLeaderboardEvent"
+    },
+    {
+      "Name": "Achievement",
+      "Id": "980",
+      "Hash": "49136085",
+      "IsOutgoing": false,
+      "ClassName": "_-22O"
+    },
+    {
+      "Name": "RoomSettingsSaved",
+      "Id": "983",
+      "Hash": "12572829",
+      "IsOutgoing": false,
+      "ClassName": "_-Gh"
+    },
+    {
+      "Name": "PetRespectFailed",
+      "Id": "99",
+      "Hash": "63658128",
+      "IsOutgoing": false,
+      "ClassName": "_-J1G"
+    }
+  ]
+}
